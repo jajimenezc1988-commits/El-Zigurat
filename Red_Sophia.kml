@@ -1,0 +1,1104 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<kml xmlns="http://www.opengis.net/kml/2.2">
+  <Document>
+    <name>Red Demiurgo - 171 Personas</name>
+    <Style id="estiloNorte">
+      <IconStyle>
+        <color>ff0000ff</color>
+        <scale>1.2</scale>
+        <Icon><href>http://maps.google.com/mapfiles/kml/pushpin/red-pushpin.png</href></Icon>
+      </IconStyle>
+    </Style>
+    <Style id="estiloEste">
+      <IconStyle>
+        <color>ff00ff00</color>
+        <scale>1.2</scale>
+        <Icon><href>http://maps.google.com/mapfiles/kml/pushpin/grn-pushpin.png</href></Icon>
+      </IconStyle>
+    </Style>
+    <Style id="estiloOeste">
+      <IconStyle>
+        <color>ffffff00</color>
+        <scale>1.2</scale>
+        <Icon><href>http://maps.google.com/mapfiles/kml/pushpin/ylw-pushpin.png</href></Icon>
+      </IconStyle>
+    </Style>
+    <Style id="estiloSur">
+      <IconStyle>
+        <color>ffff00ff</color>
+        <scale>1.2</scale>
+        <Icon><href>http://maps.google.com/mapfiles/kml/pushpin/purple-pushpin.png</href></Icon>
+      </IconStyle>
+    </Style>
+    <Style id="estiloCentro">
+      <IconStyle>
+        <color>ff00ffff</color>
+        <scale>1.2</scale>
+        <Icon><href>http://maps.google.com/mapfiles/kml/pushpin/ltblu-pushpin.png</href></Icon>
+      </IconStyle>
+    </Style>
+    <Style id="estiloAjustes">
+      <IconStyle>
+        <color>ffffffff</color>
+        <scale>1.0</scale>
+        <Icon><href>http://maps.google.com/mapfiles/kml/pushpin/wht-pushpin.png</href></Icon>
+      </IconStyle>
+    </Style>
+
+    <!-- EJE NORTE - Guadalajara (26 personas) -->
+    <Folder>
+      <name>Eje Norte - Guadalajara</name>
+      <Placemark>
+        <name>ID 1 - 13/01/1855</name>
+        <description>Arquetipo: (sin asignar aún)\nGrupo: Eje_Norte_Guadalajara\nEntidad: Jalisco</description>
+        <styleUrl>#estiloNorte</styleUrl>
+        <Point><coordinates>-103.3496,20.6597</coordinates></Point>
+      </Placemark>
+      <Placemark>
+        <name>ID 2 - 26/01/1856</name>
+        <description>Grupo: Eje_Norte_Guadalajara\nEntidad: Jalisco</description>
+        <styleUrl>#estiloNorte</styleUrl>
+        <Point><coordinates>-103.3486,20.6607</coordinates></Point>
+      </Placemark>
+      <Placemark>
+        <name>ID 3 - 08/02/1857</name>
+        <description>Grupo: Eje_Norte_Guadalajara\nEntidad: Jalisco</description>
+        <styleUrl>#estiloNorte</styleUrl>
+        <Point><coordinates>-103.3506,20.6587</coordinates></Point>
+      </Placemark>
+      <Placemark>
+        <name>ID 4 - 21/02/1858</name>
+        <description>Grupo: Eje_Norte_Guadalajara\nEntidad: Jalisco</description>
+        <styleUrl>#estiloNorte</styleUrl>
+        <Point><coordinates>-103.3476,20.6617</coordinates></Point>
+      </Placemark>
+      <Placemark>
+        <name>ID 5 - 06/03/1859</name>
+        <description>Grupo: Eje_Norte_Guadalajara\nEntidad: Jalisco</description>
+        <styleUrl>#estiloNorte</styleUrl>
+        <Point><coordinates>-103.3516,20.6577</coordinates></Point>
+      </Placemark>
+      <Placemark>
+        <name>ID 6 - 19/03/1860</name>
+        <description>Grupo: Eje_Norte_Guadalajara\nEntidad: Jalisco</description>
+        <styleUrl>#estiloNorte</styleUrl>
+        <Point><coordinates>-103.3466,20.6627</coordinates></Point>
+      </Placemark>
+      <Placemark>
+        <name>ID 7 - 01/04/1861</name>
+        <description>Grupo: Eje_Norte_Guadalajara\nEntidad: Jalisco</description>
+        <styleUrl>#estiloNorte</styleUrl>
+        <Point><coordinates>-103.3526,20.6567</coordinates></Point>
+      </Placemark>
+      <Placemark>
+        <name>ID 8 - 14/04/1862</name>
+        <description>Grupo: Eje_Norte_Guadalajara\nEntidad: Jalisco</description>
+        <styleUrl>#estiloNorte</styleUrl>
+        <Point><coordinates>-103.3456,20.6637</coordinates></Point>
+      </Placemark>
+      <Placemark>
+        <name>ID 9 - 27/04/1863</name>
+        <description>Grupo: Eje_Norte_Guadalajara\nEntidad: Jalisco</description>
+        <styleUrl>#estiloNorte</styleUrl>
+        <Point><coordinates>-103.3536,20.6557</coordinates></Point>
+      </Placemark>
+      <Placemark>
+        <name>ID 10 - 10/05/1864</name>
+        <description>Grupo: Eje_Norte_Guadalajara\nEntidad: Jalisco</description>
+        <styleUrl>#estiloNorte</styleUrl>
+        <Point><coordinates>-103.3446,20.6647</coordinates></Point>
+      </Placemark>
+      <Placemark>
+        <name>ID 11 - 23/05/1865</name>
+        <description>Grupo: Eje_Norte_Guadalajara\nEntidad: Jalisco</description>
+        <styleUrl>#estiloNorte</styleUrl>
+        <Point><coordinates>-103.3546,20.6547</coordinates></Point>
+      </Placemark>
+      <Placemark>
+        <name>ID 12 - 05/06/1866</name>
+        <description>Grupo: Eje_Norte_Guadalajara\nEntidad: Jalisco</description>
+        <styleUrl>#estiloNorte</styleUrl>
+        <Point><coordinates>-103.3436,20.6657</coordinates></Point>
+      </Placemark>
+      <Placemark>
+        <name>ID 13 - 18/06/1867</name>
+        <description>Grupo: Eje_Norte_Guadalajara\nEntidad: Jalisco</description>
+        <styleUrl>#estiloNorte</styleUrl>
+        <Point><coordinates>-103.3556,20.6537</coordinates></Point>
+      </Placemark>
+      <Placemark>
+        <name>ID 14 - 01/07/1868</name>
+        <description>Grupo: Eje_Norte_Guadalajara\nEntidad: Jalisco</description>
+        <styleUrl>#estiloNorte</styleUrl>
+        <Point><coordinates>-103.3426,20.6667</coordinates></Point>
+      </Placemark>
+      <Placemark>
+        <name>ID 15 - 14/07/1869</name>
+        <description>Grupo: Eje_Norte_Guadalajara\nEntidad: Jalisco</description>
+        <styleUrl>#estiloNorte</styleUrl>
+        <Point><coordinates>-103.3566,20.6527</coordinates></Point>
+      </Placemark>
+      <Placemark>
+        <name>ID 16 - 27/07/1870</name>
+        <description>Grupo: Eje_Norte_Guadalajara\nEntidad: Jalisco</description>
+        <styleUrl>#estiloNorte</styleUrl>
+        <Point><coordinates>-103.3416,20.6677</coordinates></Point>
+      </Placemark>
+      <Placemark>
+        <name>ID 17 - 09/08/1871</name>
+        <description>Grupo: Eje_Norte_Guadalajara\nEntidad: Jalisco</description>
+        <styleUrl>#estiloNorte</styleUrl>
+        <Point><coordinates>-103.3576,20.6517</coordinates></Point>
+      </Placemark>
+      <Placemark>
+        <name>ID 18 - 22/08/1872</name>
+        <description>Grupo: Eje_Norte_Guadalajara\nEntidad: Jalisco</description>
+        <styleUrl>#estiloNorte</styleUrl>
+        <Point><coordinates>-103.3406,20.6687</coordinates></Point>
+      </Placemark>
+      <Placemark>
+        <name>ID 19 - 04/09/1873</name>
+        <description>Grupo: Eje_Norte_Guadalajara\nEntidad: Jalisco</description>
+        <styleUrl>#estiloNorte</styleUrl>
+        <Point><coordinates>-103.3586,20.6507</coordinates></Point>
+      </Placemark>
+      <Placemark>
+        <name>ID 20 - 17/09/1874</name>
+        <description>Grupo: Eje_Norte_Guadalajara\nEntidad: Jalisco</description>
+        <styleUrl>#estiloNorte</styleUrl>
+        <Point><coordinates>-103.3396,20.6697</coordinates></Point>
+      </Placemark>
+      <Placemark>
+        <name>ID 21 - 30/09/1875</name>
+        <description>Grupo: Eje_Norte_Guadalajara\nEntidad: Jalisco</description>
+        <styleUrl>#estiloNorte</styleUrl>
+        <Point><coordinates>-103.3596,20.6497</coordinates></Point>
+      </Placemark>
+      <Placemark>
+        <name>ID 22 - 13/10/1876</name>
+        <description>Grupo: Eje_Norte_Guadalajara\nEntidad: Jalisco</description>
+        <styleUrl>#estiloNorte</styleUrl>
+        <Point><coordinates>-103.3386,20.6707</coordinates></Point>
+      </Placemark>
+      <Placemark>
+        <name>ID 23 - 26/10/1877</name>
+        <description>Grupo: Eje_Norte_Guadalajara\nEntidad: Jalisco</description>
+        <styleUrl>#estiloNorte</styleUrl>
+        <Point><coordinates>-103.3606,20.6487</coordinates></Point>
+      </Placemark>
+      <Placemark>
+        <name>ID 24 - 08/11/1878</name>
+        <description>Grupo: Eje_Norte_Guadalajara\nEntidad: Jalisco</description>
+        <styleUrl>#estiloNorte</styleUrl>
+        <Point><coordinates>-103.3376,20.6717</coordinates></Point>
+      </Placemark>
+      <Placemark>
+        <name>ID 25 - 21/11/1879</name>
+        <description>Grupo: Eje_Norte_Guadalajara\nEntidad: Jalisco</description>
+        <styleUrl>#estiloNorte</styleUrl>
+        <Point><coordinates>-103.3616,20.6477</coordinates></Point>
+      </Placemark>
+      <Placemark>
+        <name>ID 26 - 04/12/1880</name>
+        <description>Grupo: Eje_Norte_Guadalajara\nEntidad: Jalisco</description>
+        <styleUrl>#estiloNorte</styleUrl>
+        <Point><coordinates>-103.3366,20.6727</coordinates></Point>
+      </Placemark>
+    </Folder>
+
+    <!-- EJE ESTE - Potosí (26 personas) -->
+    <Folder>
+      <name>Eje Este - Potosí</name>
+      <Placemark>
+        <name>ID 27 - 14/01/1881</name>
+        <description>Grupo: Eje_Este_Potosi\nEntidad: San Luis Potosí</description>
+        <styleUrl>#estiloEste</styleUrl>
+        <Point><coordinates>-65.7531,-19.5897</coordinates></Point>
+      </Placemark>
+      <Placemark>
+        <name>ID 28 - 27/01/1882</name>
+        <description>Grupo: Eje_Este_Potosi\nEntidad: San Luis Potosí</description>
+        <styleUrl>#estiloEste</styleUrl>
+        <Point><coordinates>-65.7521,-19.5887</coordinates></Point>
+      </Placemark>
+      <Placemark>
+        <name>ID 29 - 09/02/1883</name>
+        <description>Grupo: Eje_Este_Potosi\nEntidad: San Luis Potosí</description>
+        <styleUrl>#estiloEste</styleUrl>
+        <Point><coordinates>-65.7541,-19.5907</coordinates></Point>
+      </Placemark>
+      <Placemark>
+        <name>ID 30 - 22/02/1884</name>
+        <description>Grupo: Eje_Este_Potosi\nEntidad: San Luis Potosí</description>
+        <styleUrl>#estiloEste</styleUrl>
+        <Point><coordinates>-65.7511,-19.5877</coordinates></Point>
+      </Placemark>
+      <Placemark>
+        <name>ID 31 - 07/03/1885</name>
+        <description>Grupo: Eje_Este_Potosi\nEntidad: San Luis Potosí</description>
+        <styleUrl>#estiloEste</styleUrl>
+        <Point><coordinates>-65.7551,-19.5917</coordinates></Point>
+      </Placemark>
+      <Placemark>
+        <name>ID 32 - 20/03/1886</name>
+        <description>Grupo: Eje_Este_Potosi\nEntidad: San Luis Potosí</description>
+        <styleUrl>#estiloEste</styleUrl>
+        <Point><coordinates>-65.7501,-19.5867</coordinates></Point>
+      </Placemark>
+      <Placemark>
+        <name>ID 33 - 02/04/1887</name>
+        <description>Grupo: Eje_Este_Potosi\nEntidad: San Luis Potosí</description>
+        <styleUrl>#estiloEste</styleUrl>
+        <Point><coordinates>-65.7561,-19.5927</coordinates></Point>
+      </Placemark>
+      <Placemark>
+        <name>ID 34 - 14/04/1888</name>
+        <description>Grupo: Eje_Este_Potosi\nEntidad: San Luis Potosí</description>
+        <styleUrl>#estiloEste</styleUrl>
+        <Point><coordinates>-65.7491,-19.5857</coordinates></Point>
+      </Placemark>
+      <Placemark>
+        <name>ID 35 - 28/04/1889</name>
+        <description>Grupo: Eje_Este_Potosi\nEntidad: San Luis Potosí</description>
+        <styleUrl>#estiloEste</styleUrl>
+        <Point><coordinates>-65.7571,-19.5937</coordinates></Point>
+      </Placemark>
+      <Placemark>
+        <name>ID 36 - 11/05/1890</name>
+        <description>Grupo: Eje_Este_Potosi\nEntidad: San Luis Potosí</description>
+        <styleUrl>#estiloEste</styleUrl>
+        <Point><coordinates>-65.7481,-19.5847</coordinates></Point>
+      </Placemark>
+      <Placemark>
+        <name>ID 37 - 24/05/1891</name>
+        <description>Grupo: Eje_Este_Potosi\nEntidad: San Luis Potosí</description>
+        <styleUrl>#estiloEste</styleUrl>
+        <Point><coordinates>-65.7581,-19.5947</coordinates></Point>
+      </Placemark>
+      <Placemark>
+        <name>ID 38 - 05/06/1892</name>
+        <description>Grupo: Eje_Este_Potosi\nEntidad: San Luis Potosí</description>
+        <styleUrl>#estiloEste</styleUrl>
+        <Point><coordinates>-65.7471,-19.5837</coordinates></Point>
+      </Placemark>
+      <Placemark>
+        <name>ID 39 - 19/06/1893</name>
+        <description>Grupo: Eje_Este_Potosi\nEntidad: San Luis Potosí</description>
+        <styleUrl>#estiloEste</styleUrl>
+        <Point><coordinates>-65.7591,-19.5957</coordinates></Point>
+      </Placemark>
+      <Placemark>
+        <name>ID 40 - 02/07/1894</name>
+        <description>Grupo: Eje_Este_Potosi\nEntidad: San Luis Potosí</description>
+        <styleUrl>#estiloEste</styleUrl>
+        <Point><coordinates>-65.7461,-19.5827</coordinates></Point>
+      </Placemark>
+      <Placemark>
+        <name>ID 41 - 15/07/1895</name>
+        <description>Grupo: Eje_Este_Potosi\nEntidad: San Luis Potosí</description>
+        <styleUrl>#estiloEste</styleUrl>
+        <Point><coordinates>-65.7601,-19.5967</coordinates></Point>
+      </Placemark>
+      <Placemark>
+        <name>ID 42 - 27/07/1896</name>
+        <description>Grupo: Eje_Este_Potosi\nEntidad: San Luis Potosí</description>
+        <styleUrl>#estiloEste</styleUrl>
+        <Point><coordinates>-65.7451,-19.5817</coordinates></Point>
+      </Placemark>
+      <Placemark>
+        <name>ID 43 - 10/08/1897</name>
+        <description>Grupo: Eje_Este_Potosi\nEntidad: San Luis Potosí</description>
+        <styleUrl>#estiloEste</styleUrl>
+        <Point><coordinates>-65.7611,-19.5977</coordinates></Point>
+      </Placemark>
+      <Placemark>
+        <name>ID 44 - 23/08/1898</name>
+        <description>Grupo: Eje_Este_Potosi\nEntidad: San Luis Potosí</description>
+        <styleUrl>#estiloEste</styleUrl>
+        <Point><coordinates>-65.7441,-19.5807</coordinates></Point>
+      </Placemark>
+      <Placemark>
+        <name>ID 45 - 05/09/1899</name>
+        <description>Grupo: Eje_Este_Potosi\nEntidad: San Luis Potosí</description>
+        <styleUrl>#estiloEste</styleUrl>
+        <Point><coordinates>-65.7621,-19.5987</coordinates></Point>
+      </Placemark>
+      <Placemark>
+        <name>ID 46 - 18/09/1900</name>
+        <description>Grupo: Eje_Este_Potosi\nEntidad: San Luis Potosí</description>
+        <styleUrl>#estiloEste</styleUrl>
+        <Point><coordinates>-65.7431,-19.5797</coordinates></Point>
+      </Placemark>
+      <Placemark>
+        <name>ID 47 - 01/10/1901</name>
+        <description>Grupo: Eje_Este_Potosi\nEntidad: San Luis Potosí</description>
+        <styleUrl>#estiloEste</styleUrl>
+        <Point><coordinates>-65.7631,-19.5997</coordinates></Point>
+      </Placemark>
+      <Placemark>
+        <name>ID 48 - 14/10/1902</name>
+        <description>Grupo: Eje_Este_Potosi\nEntidad: San Luis Potosí</description>
+        <styleUrl>#estiloEste</styleUrl>
+        <Point><coordinates>-65.7421,-19.5787</coordinates></Point>
+      </Placemark>
+      <Placemark>
+        <name>ID 49 - 27/10/1903</name>
+        <description>Grupo: Eje_Este_Potosi\nEntidad: San Luis Potosí</description>
+        <styleUrl>#estiloEste</styleUrl>
+        <Point><coordinates>-65.7641,-19.6007</coordinates></Point>
+      </Placemark>
+      <Placemark>
+        <name>ID 50 - 08/11/1904</name>
+        <description>Grupo: Eje_Este_Potosi\nEntidad: San Luis Potosí</description>
+        <styleUrl>#estiloEste</styleUrl>
+        <Point><coordinates>-65.7411,-19.5777</coordinates></Point>
+      </Placemark>
+      <Placemark>
+        <name>ID 51 - 22/11/1905</name>
+        <description>Grupo: Eje_Este_Potosi\nEntidad: San Luis Potosí</description>
+        <styleUrl>#estiloEste</styleUrl>
+        <Point><coordinates>-65.7651,-19.6017</coordinates></Point>
+      </Placemark>
+      <Placemark>
+        <name>ID 52 - 05/12/1906</name>
+        <description>Grupo: Eje_Este_Potosi\nEntidad: San Luis Potosí</description>
+        <styleUrl>#estiloEste</styleUrl>
+        <Point><coordinates>-65.7401,-19.5767</coordinates></Point>
+      </Placemark>
+    </Folder>
+
+    <!-- EJE OESTE - Concepción (26 personas) -->
+    <Folder>
+      <name>Eje Oeste - Concepción</name>
+      <Placemark>
+        <name>ID 53 - 15/01/1907</name>
+        <description>Grupo: Eje_Oeste_Concepcion\nEntidad: Colima</description>
+        <styleUrl>#estiloOeste</styleUrl>
+        <Point><coordinates>-73.0498,-36.8270</coordinates></Point>
+      </Placemark>
+      <Placemark>
+        <name>ID 54 - 28/01/1908</name>
+        <description>Grupo: Eje_Oeste_Concepcion\nEntidad: Colima</description>
+        <styleUrl>#estiloOeste</styleUrl>
+        <Point><coordinates>-73.0488,-36.8260</coordinates></Point>
+      </Placemark>
+      <Placemark>
+        <name>ID 55 - 10/02/1909</name>
+        <description>Grupo: Eje_Oeste_Concepcion\nEntidad: Colima</description>
+        <styleUrl>#estiloOeste</styleUrl>
+        <Point><coordinates>-73.0508,-36.8280</coordinates></Point>
+      </Placemark>
+      <Placemark>
+        <name>ID 56 - 23/02/1910</name>
+        <description>Grupo: Eje_Oeste_Concepcion\nEntidad: Colima</description>
+        <styleUrl>#estiloOeste</styleUrl>
+        <Point><coordinates>-73.0478,-36.8250</coordinates></Point>
+      </Placemark>
+      <Placemark>
+        <name>ID 57 - 08/03/1911</name>
+        <description>Grupo: Eje_Oeste_Concepcion\nEntidad: Colima</description>
+        <styleUrl>#estiloOeste</styleUrl>
+        <Point><coordinates>-73.0518,-36.8290</coordinates></Point>
+      </Placemark>
+      <Placemark>
+        <name>ID 58 - 20/03/1912</name>
+        <description>Grupo: Eje_Oeste_Concepcion\nEntidad: Colima</description>
+        <styleUrl>#estiloOeste</styleUrl>
+        <Point><coordinates>-73.0468,-36.8240</coordinates></Point>
+      </Placemark>
+      <Placemark>
+        <name>ID 59 - 03/04/1913</name>
+        <description>Grupo: Eje_Oeste_Concepcion\nEntidad: Colima</description>
+        <styleUrl>#estiloOeste</styleUrl>
+        <Point><coordinates>-73.0528,-36.8300</coordinates></Point>
+      </Placemark>
+      <Placemark>
+        <name>ID 60 - 16/04/1914</name>
+        <description>Grupo: Eje_Oeste_Concepcion\nEntidad: Colima</description>
+        <styleUrl>#estiloOeste</styleUrl>
+        <Point><coordinates>-73.0458,-36.8230</coordinates></Point>
+      </Placemark>
+      <Placemark>
+        <name>ID 61 - 29/04/1915</name>
+        <description>Grupo: Eje_Oeste_Concepcion\nEntidad: Colima</description>
+        <styleUrl>#estiloOeste</styleUrl>
+        <Point><coordinates>-73.0538,-36.8310</coordinates></Point>
+      </Placemark>
+      <Placemark>
+        <name>ID 62 - 11/05/1916</name>
+        <description>Grupo: Eje_Oeste_Concepcion\nEntidad: Colima</description>
+        <styleUrl>#estiloOeste</styleUrl>
+        <Point><coordinates>-73.0448,-36.8220</coordinates></Point>
+      </Placemark>
+      <Placemark>
+        <name>ID 63 - 25/05/1917</name>
+        <description>Grupo: Eje_Oeste_Concepcion\nEntidad: Colima</description>
+        <styleUrl>#estiloOeste</styleUrl>
+        <Point><coordinates>-73.0548,-36.8320</coordinates></Point>
+      </Placemark>
+      <Placemark>
+        <name>ID 64 - 07/06/1918</name>
+        <description>Grupo: Eje_Oeste_Concepcion\nEntidad: Colima</description>
+        <styleUrl>#estiloOeste</styleUrl>
+        <Point><coordinates>-73.0438,-36.8210</coordinates></Point>
+      </Placemark>
+      <Placemark>
+        <name>ID 65 - 20/06/1919</name>
+        <description>Grupo: Eje_Oeste_Concepcion\nEntidad: Colima</description>
+        <styleUrl>#estiloOeste</styleUrl>
+        <Point><coordinates>-73.0558,-36.8330</coordinates></Point>
+      </Placemark>
+      <Placemark>
+        <name>ID 66 - 02/07/1920</name>
+        <description>Grupo: Eje_Oeste_Concepcion\nEntidad: Colima</description>
+        <styleUrl>#estiloOeste</styleUrl>
+        <Point><coordinates>-73.0428,-36.8200</coordinates></Point>
+      </Placemark>
+      <Placemark>
+        <name>ID 67 - 16/07/1921</name>
+        <description>Grupo: Eje_Oeste_Concepcion\nEntidad: Colima</description>
+        <styleUrl>#estiloOeste</styleUrl>
+        <Point><coordinates>-73.0568,-36.8340</coordinates></Point>
+      </Placemark>
+      <Placemark>
+        <name>ID 68 - 29/07/1922</name>
+        <description>Grupo: Eje_Oeste_Concepcion\nEntidad: Colima</description>
+        <styleUrl>#estiloOeste</styleUrl>
+        <Point><coordinates>-73.0418,-36.8190</coordinates></Point>
+      </Placemark>
+      <Placemark>
+        <name>ID 69 - 11/08/1923</name>
+        <description>Grupo: Eje_Oeste_Concepcion\nEntidad: Colima</description>
+        <styleUrl>#estiloOeste</styleUrl>
+        <Point><coordinates>-73.0578,-36.8350</coordinates></Point>
+      </Placemark>
+      <Placemark>
+        <name>ID 70 - 23/08/1924</name>
+        <description>Grupo: Eje_Oeste_Concepcion\nEntidad: Colima</description>
+        <styleUrl>#estiloOeste</styleUrl>
+        <Point><coordinates>-73.0408,-36.8180</coordinates></Point>
+      </Placemark>
+      <Placemark>
+        <name>ID 71 - 06/09/1925</name>
+        <description>Grupo: Eje_Oeste_Concepcion\nEntidad: Colima</description>
+        <styleUrl>#estiloOeste</styleUrl>
+        <Point><coordinates>-73.0588,-36.8360</coordinates></Point>
+      </Placemark>
+      <Placemark>
+        <name>ID 72 - 19/09/1926</name>
+        <description>Grupo: Eje_Oeste_Concepcion\nEntidad: Colima</description>
+        <styleUrl>#estiloOeste</styleUrl>
+        <Point><coordinates>-73.0398,-36.8170</coordinates></Point>
+      </Placemark>
+      <Placemark>
+        <name>ID 73 - 02/10/1927</name>
+        <description>Grupo: Eje_Oeste_Concepcion\nEntidad: Colima</description>
+        <styleUrl>#estiloOeste</styleUrl>
+        <Point><coordinates>-73.0598,-36.8370</coordinates></Point>
+      </Placemark>
+      <Placemark>
+        <name>ID 74 - 14/10/1928</name>
+        <description>Grupo: Eje_Oeste_Concepcion\nEntidad: Colima</description>
+        <styleUrl>#estiloOeste</styleUrl>
+        <Point><coordinates>-73.0388,-36.8160</coordinates></Point>
+      </Placemark>
+      <Placemark>
+        <name>ID 75 - 28/10/1929</name>
+        <description>Grupo: Eje_Oeste_Concepcion\nEntidad: Colima</description>
+        <styleUrl>#estiloOeste</styleUrl>
+        <Point><coordinates>-73.0608,-36.8380</coordinates></Point>
+      </Placemark>
+      <Placemark>
+        <name>ID 76 - 10/11/1930</name>
+        <description>Grupo: Eje_Oeste_Concepcion\nEntidad: Colima</description>
+        <styleUrl>#estiloOeste</styleUrl>
+        <Point><coordinates>-73.0378,-36.8150</coordinates></Point>
+      </Placemark>
+      <Placemark>
+        <name>ID 77 - 23/11/1931</name>
+        <description>Grupo: Eje_Oeste_Concepcion\nEntidad: Colima</description>
+        <styleUrl>#estiloOeste</styleUrl>
+        <Point><coordinates>-73.0618,-36.8390</coordinates></Point>
+      </Placemark>
+      <Placemark>
+        <name>ID 78 - 06/12/1932</name>
+        <description>Grupo: Eje_Oeste_Concepcion\nEntidad: Colima</description>
+        <styleUrl>#estiloOeste</styleUrl>
+        <Point><coordinates>-73.0368,-36.8140</coordinates></Point>
+      </Placemark>
+    </Folder>
+
+    <!-- EJE SUR - Bariloche (26 personas) -->
+    <Folder>
+      <name>Eje Sur - Bariloche</name>
+      <Placemark>
+        <name>ID 79 - 16/01/1933</name>
+        <description>Grupo: Eje_Sur_Bariloche\nEntidad: Chiapas</description>
+        <styleUrl>#estiloSur</styleUrl>
+        <Point><coordinates>-71.3102,-41.1335</coordinates></Point>
+      </Placemark>
+      <Placemark>
+        <name>ID 80 - 29/01/1934</name>
+        <description>Grupo: Eje_Sur_Bariloche\nEntidad: Chiapas</description>
+        <styleUrl>#estiloSur</styleUrl>
+        <Point><coordinates>-71.3092,-41.1325</coordinates></Point>
+      </Placemark>
+      <Placemark>
+        <name>ID 81 - 11/02/1935</name>
+        <description>Grupo: Eje_Sur_Bariloche\nEntidad: Chiapas</description>
+        <styleUrl>#estiloSur</styleUrl>
+        <Point><coordinates>-71.3112,-41.1345</coordinates></Point>
+      </Placemark>
+      <Placemark>
+        <name>ID 82 - 24/02/1936</name>
+        <description>Grupo: Eje_Sur_Bariloche\nEntidad: Chiapas</description>
+        <styleUrl>#estiloSur</styleUrl>
+        <Point><coordinates>-71.3082,-41.1315</coordinates></Point>
+      </Placemark>
+      <Placemark>
+        <name>ID 83 - 09/03/1937</name>
+        <description>Grupo: Eje_Sur_Bariloche\nEntidad: Chiapas</description>
+        <styleUrl>#estiloSur</styleUrl>
+        <Point><coordinates>-71.3122,-41.1355</coordinates></Point>
+      </Placemark>
+      <Placemark>
+        <name>ID 84 - 22/03/1938</name>
+        <description>Grupo: Eje_Sur_Bariloche\nEntidad: Chiapas</description>
+        <styleUrl>#estiloSur</styleUrl>
+        <Point><coordinates>-71.3072,-41.1305</coordinates></Point>
+      </Placemark>
+      <Placemark>
+        <name>ID 85 - 04/04/1939</name>
+        <description>Grupo: Eje_Sur_Bariloche\nEntidad: Chiapas</description>
+        <styleUrl>#estiloSur</styleUrl>
+        <Point><coordinates>-71.3132,-41.1365</coordinates></Point>
+      </Placemark>
+      <Placemark>
+        <name>ID 86 - 16/04/1940</name>
+        <description>Grupo: Eje_Sur_Bariloche\nEntidad: Chiapas</description>
+        <styleUrl>#estiloSur</styleUrl>
+        <Point><coordinates>-71.3062,-41.1295</coordinates></Point>
+      </Placemark>
+      <Placemark>
+        <name>ID 87 - 30/04/1941</name>
+        <description>Grupo: Eje_Sur_Bariloche\nEntidad: Chiapas</description>
+        <styleUrl>#estiloSur</styleUrl>
+        <Point><coordinates>-71.3142,-41.1375</coordinates></Point>
+      </Placemark>
+      <Placemark>
+        <name>ID 88 - 13/05/1942</name>
+        <description>Grupo: Eje_Sur_Bariloche\nEntidad: Chiapas</description>
+        <styleUrl>#estiloSur</styleUrl>
+        <Point><coordinates>-71.3052,-41.1285</coordinates></Point>
+      </Placemark>
+      <Placemark>
+        <name>ID 89 - 26/05/1943</name>
+        <description>Grupo: Eje_Sur_Bariloche\nEntidad: Chiapas</description>
+        <styleUrl>#estiloSur</styleUrl>
+        <Point><coordinates>-71.3152,-41.1385</coordinates></Point>
+      </Placemark>
+      <Placemark>
+        <name>ID 90 - 08/06/1944</name>
+        <description>Grupo: Eje_Sur_Bariloche\nEntidad: Chiapas</description>
+        <styleUrl>#estiloSur</styleUrl>
+        <Point><coordinates>-71.3042,-41.1275</coordinates></Point>
+      </Placemark>
+      <Placemark>
+        <name>ID 91 - 21/06/1945</name>
+        <description>Grupo: Eje_Sur_Bariloche\nEntidad: Chiapas</description>
+        <styleUrl>#estiloSur</styleUrl>
+        <Point><coordinates>-71.3162,-41.1395</coordinates></Point>
+      </Placemark>
+      <Placemark>
+        <name>ID 92 - 04/07/1946</name>
+        <description>Grupo: Eje_Sur_Bariloche\nEntidad: Chiapas</description>
+        <styleUrl>#estiloSur</styleUrl>
+        <Point><coordinates>-71.3032,-41.1265</coordinates></Point>
+      </Placemark>
+      <Placemark>
+        <name>ID 93 - 17/07/1947</name>
+        <description>Grupo: Eje_Sur_Bariloche\nEntidad: Chiapas</description>
+        <styleUrl>#estiloSur</styleUrl>
+        <Point><coordinates>-71.3172,-41.1405</coordinates></Point>
+      </Placemark>
+      <Placemark>
+        <name>ID 94 - 29/07/1948</name>
+        <description>Grupo: Eje_Sur_Bariloche\nEntidad: Chiapas</description>
+        <styleUrl>#estiloSur</styleUrl>
+        <Point><coordinates>-71.3022,-41.1255</coordinates></Point>
+      </Placemark>
+      <Placemark>
+        <name>ID 95 - 12/08/1949</name>
+        <description>Grupo: Eje_Sur_Bariloche\nEntidad: Chiapas</description>
+        <styleUrl>#estiloSur</styleUrl>
+        <Point><coordinates>-71.3182,-41.1415</coordinates></Point>
+      </Placemark>
+      <Placemark>
+        <name>ID 96 - 25/08/1950</name>
+        <description>Grupo: Eje_Sur_Bariloche\nEntidad: Chiapas</description>
+        <styleUrl>#estiloSur</styleUrl>
+        <Point><coordinates>-71.3012,-41.1245</coordinates></Point>
+      </Placemark>
+      <Placemark>
+        <name>ID 97 - 07/09/1951</name>
+        <description>Grupo: Eje_Sur_Bariloche\nEntidad: Chiapas</description>
+        <styleUrl>#estiloSur</styleUrl>
+        <Point><coordinates>-71.3192,-41.1425</coordinates></Point>
+      </Placemark>
+      <Placemark>
+        <name>ID 98 - 19/09/1952</name>
+        <description>Grupo: Eje_Sur_Bariloche\nEntidad: Chiapas</description>
+        <styleUrl>#estiloSur</styleUrl>
+        <Point><coordinates>-71.3002,-41.1235</coordinates></Point>
+      </Placemark>
+      <Placemark>
+        <name>ID 99 - 03/10/1953</name>
+        <description>Grupo: Eje_Sur_Bariloche\nEntidad: Chiapas</description>
+        <styleUrl>#estiloSur</styleUrl>
+        <Point><coordinates>-71.3202,-41.1435</coordinates></Point>
+      </Placemark>
+      <Placemark>
+        <name>ID 100 - 16/10/1954</name>
+        <description>Grupo: Eje_Sur_Bariloche\nEntidad: Chiapas</description>
+        <styleUrl>#estiloSur</styleUrl>
+        <Point><coordinates>-71.2992,-41.1225</coordinates></Point>
+      </Placemark>
+      <Placemark>
+        <name>ID 101 - 29/10/1955</name>
+        <description>Grupo: Eje_Sur_Bariloche\nEntidad: Chiapas</description>
+        <styleUrl>#estiloSur</styleUrl>
+        <Point><coordinates>-71.3212,-41.1445</coordinates></Point>
+      </Placemark>
+      <Placemark>
+        <name>ID 102 - 10/11/1956</name>
+        <description>Grupo: Eje_Sur_Bariloche\nEntidad: Chiapas</description>
+        <styleUrl>#estiloSur</styleUrl>
+        <Point><coordinates>-71.2982,-41.1215</coordinates></Point>
+      </Placemark>
+      <Placemark>
+        <name>ID 103 - 24/11/1957</name>
+        <description>Grupo: Eje_Sur_Bariloche\nEntidad: Chiapas</description>
+        <styleUrl>#estiloSur</styleUrl>
+        <Point><coordinates>-71.3222,-41.1455</coordinates></Point>
+      </Placemark>
+      <Placemark>
+        <name>ID 104 - 07/12/1958</name>
+        <description>Grupo: Eje_Sur_Bariloche\nEntidad: Chiapas</description>
+        <styleUrl>#estiloSur</styleUrl>
+        <Point><coordinates>-71.2972,-41.1205</coordinates></Point>
+      </Placemark>
+    </Folder>
+
+    <!-- CENTRO - Árbol de la Vida (33 personas) -->
+    <Folder>
+      <name>Centro - Árbol de la Vida</name>
+      <Placemark>
+        <name>ID 105 - 07/01/1959</name>
+        <description>Grupo: Centro_Arbol\nEntidad: Ciudad de México</description>
+        <styleUrl>#estiloCentro</styleUrl>
+        <Point><coordinates>-46.6333,-23.5505</coordinates></Point>
+      </Placemark>
+      <Placemark>
+        <name>ID 106 - 14/01/1960</name>
+        <description>Grupo: Centro_Arbol\nEntidad: Ciudad de México</description>
+        <styleUrl>#estiloCentro</styleUrl>
+        <Point><coordinates>-46.6323,-23.5495</coordinates></Point>
+      </Placemark>
+      <Placemark>
+        <name>ID 107 - 19/01/1961</name>
+        <description>Grupo: Centro_Arbol\nEntidad: Ciudad de México</description>
+        <styleUrl>#estiloCentro</styleUrl>
+        <Point><coordinates>-46.6343,-23.5515</coordinates></Point>
+      </Placemark>
+      <Placemark>
+        <name>ID 108 - 21/01/1962</name>
+        <description>Grupo: Centro_Arbol\nEntidad: Ciudad de México</description>
+        <styleUrl>#estiloCentro</styleUrl>
+        <Point><coordinates>-46.6313,-23.5485</coordinates></Point>
+      </Placemark>
+      <Placemark>
+        <name>ID 109 - 28/01/1963</name>
+        <description>Grupo: Centro_Arbol\nEntidad: Ciudad de México</description>
+        <styleUrl>#estiloCentro</styleUrl>
+        <Point><coordinates>-46.6353,-23.5525</coordinates></Point>
+      </Placemark>
+      <Placemark>
+        <name>ID 110 - 04/02/1964</name>
+        <description>Grupo: Centro_Arbol\nEntidad: Ciudad de México</description>
+        <styleUrl>#estiloCentro</styleUrl>
+        <Point><coordinates>-46.6303,-23.5475</coordinates></Point>
+      </Placemark>
+      <Placemark>
+        <name>ID 111 - 07/02/1965</name>
+        <description>Grupo: Centro_Arbol\nEntidad: Ciudad de México</description>
+        <styleUrl>#estiloCentro</styleUrl>
+        <Point><coordinates>-46.6363,-23.5535</coordinates></Point>
+      </Placemark>
+      <Placemark>
+        <name>ID 112 - 11/02/1966</name>
+        <description>Grupo: Centro_Arbol\nEntidad: Ciudad de México</description>
+        <styleUrl>#estiloCentro</styleUrl>
+        <Point><coordinates>-46.6293,-23.5465</coordinates></Point>
+      </Placemark>
+      <Placemark>
+        <name>ID 113 - 18/02/1967</name>
+        <description>Grupo: Centro_Arbol\nEntidad: Ciudad de México</description>
+        <styleUrl>#estiloCentro</styleUrl>
+        <Point><coordinates>-46.6373,-23.5545</coordinates></Point>
+      </Placemark>
+      <Placemark>
+        <name>ID 114 - 25/02/1968</name>
+        <description>Grupo: Centro_Arbol\nEntidad: Ciudad de México</description>
+        <styleUrl>#estiloCentro</styleUrl>
+        <Point><coordinates>-46.6283,-23.5455</coordinates></Point>
+      </Placemark>
+      <Placemark>
+        <name>ID 115 - 26/02/1969</name>
+        <description>Grupo: Centro_Arbol\nEntidad: Ciudad de México</description>
+        <styleUrl>#estiloCentro</styleUrl>
+        <Point><coordinates>-46.6383,-23.5555</coordinates></Point>
+      </Placemark>
+      <Placemark>
+        <name>ID 116 - 04/03/1970</name>
+        <description>Grupo: Centro_Arbol\nEntidad: Ciudad de México</description>
+        <styleUrl>#estiloCentro</styleUrl>
+        <Point><coordinates>-46.6273,-23.5445</coordinates></Point>
+      </Placemark>
+      <Placemark>
+        <name>ID 117 - 11/03/1971</name>
+        <description>Grupo: Centro_Arbol\nEntidad: Ciudad de México</description>
+        <styleUrl>#estiloCentro</styleUrl>
+        <Point><coordinates>-46.6393,-23.5565</coordinates></Point>
+      </Placemark>
+      <Placemark>
+        <name>ID 118 - 16/03/1972</name>
+        <description>Grupo: Centro_Arbol\nEntidad: Ciudad de México</description>
+        <styleUrl>#estiloCentro</styleUrl>
+        <Point><coordinates>-46.6263,-23.5435</coordinates></Point>
+      </Placemark>
+      <Placemark>
+        <name>ID 119 - 17/03/1973</name>
+        <description>Grupo: Centro_Arbol\nEntidad: Ciudad de México</description>
+        <styleUrl>#estiloCentro</styleUrl>
+        <Point><coordinates>-46.6403,-23.5575</coordinates></Point>
+      </Placemark>
+      <Placemark>
+        <name>ID 120 - 25/03/1974</name>
+        <description>Grupo: Centro_Arbol\nEntidad: Ciudad de México</description>
+        <styleUrl>#estiloCentro</styleUrl>
+        <Point><coordinates>-46.6253,-23.5425</coordinates></Point>
+      </Placemark>
+      <Placemark>
+        <name>ID 121 - 01/04/1975</name>
+        <description>Grupo: Centro_Arbol\nEntidad: Ciudad de México</description>
+        <styleUrl>#estiloCentro</styleUrl>
+        <Point><coordinates>-46.6413,-23.5585</coordinates></Point>
+      </Placemark>
+      <Placemark>
+        <name>ID 122 - 05/04/1976</name>
+        <description>Grupo: Centro_Arbol\nEntidad: Ciudad de México</description>
+        <styleUrl>#estiloCentro</styleUrl>
+        <Point><coordinates>-46.6243,-23.5415</coordinates></Point>
+      </Placemark>
+      <Placemark>
+        <name>ID 123 - 08/04/1977</name>
+        <description>Grupo: Centro_Arbol\nEntidad: Ciudad de México</description>
+        <styleUrl>#estiloCentro</styleUrl>
+        <Point><coordinates>-46.6423,-23.5595</coordinates></Point>
+      </Placemark>
+      <Placemark>
+        <name>ID 124 - 15/04/1978</name>
+        <description>Grupo: Centro_Arbol\nEntidad: Ciudad de México</description>
+        <styleUrl>#estiloCentro</styleUrl>
+        <Point><coordinates>-46.6233,-23.5405</coordinates></Point>
+      </Placemark>
+      <Placemark>
+        <name>ID 125 - 22/04/1979</name>
+        <description>Grupo: Centro_Arbol\nEntidad: Ciudad de México</description>
+        <styleUrl>#estiloCentro</styleUrl>
+        <Point><coordinates>-46.6433,-23.5605</coordinates></Point>
+      </Placemark>
+      <Placemark>
+        <name>ID 126 - 24/04/1980</name>
+        <description>Grupo: Centro_Arbol\nEntidad: Ciudad de México</description>
+        <styleUrl>#estiloCentro</styleUrl>
+        <Point><coordinates>-46.6223,-23.5395</coordinates></Point>
+      </Placemark>
+      <Placemark>
+        <name>ID 127 - 29/04/1981</name>
+        <description>Grupo: Centro_Arbol\nEntidad: Ciudad de México</description>
+        <styleUrl>#estiloCentro</styleUrl>
+        <Point><coordinates>-46.6443,-23.5615</coordinates></Point>
+      </Placemark>
+      <Placemark>
+        <name>ID 128 - 06/05/1982</name>
+        <description>Grupo: Centro_Arbol\nEntidad: Ciudad de México</description>
+        <styleUrl>#estiloCentro</styleUrl>
+        <Point><coordinates>-46.6213,-23.5385</coordinates></Point>
+      </Placemark>
+      <Placemark>
+        <name>ID 129 - 13/05/1983</name>
+        <description>Grupo: Centro_Arbol\nEntidad: Ciudad de México</description>
+        <styleUrl>#estiloCentro</styleUrl>
+        <Point><coordinates>-46.6453,-23.5625</coordinates></Point>
+      </Placemark>
+      <Placemark>
+        <name>ID 130 - 19/05/1984</name>
+        <description>Grupo: Centro_Arbol\nEntidad: Ciudad de México</description>
+        <styleUrl>#estiloCentro</styleUrl>
+        <Point><coordinates>-46.6203,-23.5375</coordinates></Point>
+      </Placemark>
+      <Placemark>
+        <name>ID 131 - 27/05/1985</name>
+        <description>Grupo: Centro_Arbol\nEntidad: Ciudad de México</description>
+        <styleUrl>#estiloCentro</styleUrl>
+        <Point><coordinates>-46.6463,-23.5635</coordinates></Point>
+      </Placemark>
+      <Placemark>
+        <name>ID 132 - 02/06/1986</name>
+        <description>Grupo: Centro_Arbol\nEntidad: Ciudad de México</description>
+        <styleUrl>#estiloCentro</styleUrl>
+        <Point><coordinates>-46.6193,-23.5365</coordinates></Point>
+      </Placemark>
+      <Placemark>
+        <name>ID 133 - 04/06/1987</name>
+        <description>Grupo: Centro_Arbol\nEntidad: Ciudad de México</description>
+        <styleUrl>#estiloCentro</styleUrl>
+        <Point><coordinates>-46.6473,-23.5645</coordinates></Point>
+      </Placemark>
+      <Placemark>
+        <name>ID 134 - 10/06/1988</name>
+        <description>Grupo: Centro_Arbol\nEntidad: Ciudad de México</description>
+        <styleUrl>#estiloCentro</styleUrl>
+        <Point><coordinates>-46.6183,-23.5355</coordinates></Point>
+      </Placemark>
+      <Placemark>
+        <name>ID 135 - 17/06/1989</name>
+        <description>Grupo: Centro_Arbol\nEntidad: Ciudad de México</description>
+        <styleUrl>#estiloCentro</styleUrl>
+        <Point><coordinates>-46.6483,-23.5655</coordinates></Point>
+      </Placemark>
+      <Placemark>
+        <name>ID 136 - 20/06/1990</name>
+        <description>Grupo: Centro_Arbol\nEntidad: Ciudad de México</description>
+        <styleUrl>#estiloCentro</styleUrl>
+        <Point><coordinates>-46.6173,-23.5345</coordinates></Point>
+      </Placemark>
+      <Placemark>
+        <name>ID 137 - 24/06/1991</name>
+        <description>Grupo: Centro_Arbol\nEntidad: Ciudad de México</description>
+        <styleUrl>#estiloCentro</styleUrl>
+        <Point><coordinates>-46.6493,-23.5665</coordinates></Point>
+      </Placemark>
+    </Folder>
+
+    <!-- AJUSTES - Residuo (34 personas) -->
+    <Folder>
+      <name>Ajustes - Residuo</name>
+      <Placemark>
+        <name>ID 138 - 05/01/1992</name>
+        <description>Grupo: Ajustes_Residuo\nEntidad: Oaxaca</description>
+        <styleUrl>#estiloAjustes</styleUrl>
+        <Point><coordinates>-22.8785,-30.5595</coordinates></Point>
+      </Placemark>
+      <Placemark>
+        <name>ID 139 - 10/01/1993</name>
+        <description>Grupo: Ajustes_Residuo\nEntidad: Oaxaca</description>
+        <styleUrl>#estiloAjustes</styleUrl>
+        <Point><coordinates>-22.8775,-30.5585</coordinates></Point>
+      </Placemark>
+      <Placemark>
+        <name>ID 140 - 15/01/1994</name>
+        <description>Grupo: Ajustes_Residuo\nEntidad: Oaxaca</description>
+        <styleUrl>#estiloAjustes</styleUrl>
+        <Point><coordinates>-22.8795,-30.5605</coordinates></Point>
+      </Placemark>
+      <Placemark>
+        <name>ID 141 - 20/01/1995</name>
+        <description>Grupo: Ajustes_Residuo\nEntidad: Oaxaca</description>
+        <styleUrl>#estiloAjustes</styleUrl>
+        <Point><coordinates>-22.8765,-30.5575</coordinates></Point>
+      </Placemark>
+      <Placemark>
+        <name>ID 142 - 25/01/1996</name>
+        <description>Grupo: Ajustes_Residuo\nEntidad: Oaxaca</description>
+        <styleUrl>#estiloAjustes</styleUrl>
+        <Point><coordinates>-22.8805,-30.5615</coordinates></Point>
+      </Placemark>
+      <Placemark>
+        <name>ID 143 - 30/01/1997</name>
+        <description>Grupo: Ajustes_Residuo\nEntidad: Oaxaca</description>
+        <styleUrl>#estiloAjustes</styleUrl>
+        <Point><coordinates>-22.8755,-30.5565</coordinates></Point>
+      </Placemark>
+      <Placemark>
+        <name>ID 144 - 04/02/1998</name>
+        <description>Grupo: Ajustes_Residuo\nEntidad: Oaxaca</description>
+        <styleUrl>#estiloAjustes</styleUrl>
+        <Point><coordinates>-22.8815,-30.5625</coordinates></Point>
+      </Placemark>
+      <Placemark>
+        <name>ID 145 - 09/02/1999</name>
+        <description>Grupo: Ajustes_Residuo\nEntidad: Oaxaca</description>
+        <styleUrl>#estiloAjustes</styleUrl>
+        <Point><coordinates>-22.8745,-30.5555</coordinates></Point>
+      </Placemark>
+      <Placemark>
+        <name>ID 146 - 14/02/2000</name>
+        <description>Grupo: Ajustes_Residuo\nEntidad: Oaxaca</description>
+        <styleUrl>#estiloAjustes</styleUrl>
+        <Point><coordinates>-22.8825,-30.5635</coordinates></Point>
+      </Placemark>
+      <Placemark>
+        <name>ID 147 - 19/02/2001</name>
+        <description>Grupo: Ajustes_Residuo\nEntidad: Oaxaca</description>
+        <styleUrl>#estiloAjustes</styleUrl>
+        <Point><coordinates>-22.8735,-30.5545</coordinates></Point>
+      </Placemark>
+      <Placemark>
+        <name>ID 148 - 24/02/2002</name>
+        <description>Grupo: Ajustes_Residuo\nEntidad: Oaxaca</description>
+        <styleUrl>#estiloAjustes</styleUrl>
+        <Point><coordinates>-22.8835,-30.5645</coordinates></Point>
+      </Placemark>
+      <Placemark>
+        <name>ID 149 - 01/03/2003</name>
+        <description>Grupo: Ajustes_Residuo\nEntidad: Oaxaca</description>
+        <styleUrl>#estiloAjustes</styleUrl>
+        <Point><coordinates>-22.8725,-30.5535</coordinates></Point>
+      </Placemark>
+      <Placemark>
+        <name>ID 150 - 05/03/2004</name>
+        <description>Grupo: Ajustes_Residuo\nEntidad: Oaxaca</description>
+        <styleUrl>#estiloAjustes</styleUrl>
+        <Point><coordinates>-22.8845,-30.5655</coordinates></Point>
+      </Placemark>
+      <Placemark>
+        <name>ID 151 - 11/03/2005</name>
+        <description>Grupo: Ajustes_Residuo\nEntidad: Oaxaca</description>
+        <styleUrl>#estiloAjustes</styleUrl>
+        <Point><coordinates>-22.8715,-30.5525</coordinates></Point>
+      </Placemark>
+      <Placemark>
+        <name>ID 152 - 16/03/2006</name>
+        <description>Grupo: Ajustes_Residuo\nEntidad: Oaxaca</description>
+        <styleUrl>#estiloAjustes</styleUrl>
+        <Point><coordinates>-22.8855,-30.5665</coordinates></Point>
+      </Placemark>
+      <Placemark>
+        <name>ID 153 - 21/03/2007</name>
+        <description>Grupo: Ajustes_Residuo\nEntidad: Oaxaca</description>
+        <styleUrl>#estiloAjustes</styleUrl>
+        <Point><coordinates>-22.8705,-30.5515</coordinates></Point>
+      </Placemark>
+      <Placemark>
+        <name>ID 154 - 25/03/2008</name>
+        <description>Grupo: Ajustes_Residuo\nEntidad: Oaxaca</description>
+        <styleUrl>#estiloAjustes</styleUrl>
+        <Point><coordinates>-22.8865,-30.5675</coordinates></Point>
+      </Placemark>
+      <Placemark>
+        <name>ID 155 - 31/03/2009</name>
+        <description>Grupo: Ajustes_Residuo\nEntidad: Oaxaca</description>
+        <styleUrl>#estiloAjustes</styleUrl>
+        <Point><coordinates>-22.8695,-30.5505</coordinates></Point>
+      </Placemark>
+      <Placemark>
+        <name>ID 156 - 05/04/2010</name>
+        <description>Grupo: Ajustes_Residuo\nEntidad: Oaxaca</description>
+        <styleUrl>#estiloAjustes</styleUrl>
+        <Point><coordinates>-22.8875,-30.5685</coordinates></Point>
+      </Placemark>
+      <Placemark>
+        <name>ID 157 - 10/04/2011</name>
+        <description>Grupo: Ajustes_Residuo\nEntidad: Oaxaca</description>
+        <styleUrl>#estiloAjustes</styleUrl>
+        <Point><coordinates>-22.8685,-30.5495</coordinates></Point>
+      </Placemark>
+      <Placemark>
+        <name>ID 158 - 14/04/2012</name>
+        <description>Grupo: Ajustes_Residuo\nEntidad: Oaxaca</description>
+        <styleUrl>#estiloAjustes</styleUrl>
+        <Point><coordinates>-22.8885,-30.5695</coordinates></Point>
+      </Placemark>
+      <Placemark>
+        <name>ID 159 - 20/04/2013</name>
+        <description>Grupo: Ajustes_Residuo\nEntidad: Oaxaca</description>
+        <styleUrl>#estiloAjustes</styleUrl>
+        <Point><coordinates>-22.8675,-30.5485</coordinates></Point>
+      </Placemark>
+      <Placemark>
+        <name>ID 160 - 25/04/2014</name>
+        <description>Grupo: Ajustes_Residuo\nEntidad: Oaxaca</description>
+        <styleUrl>#estiloAjustes</styleUrl>
+        <Point><coordinates>-22.8895,-30.5705</coordinates></Point>
+      </Placemark>
+      <Placemark>
+        <name>ID 161 - 30/04/2015</name>
+        <description>Grupo: Ajustes_Residuo\nEntidad: Oaxaca</description>
+        <styleUrl>#estiloAjustes</styleUrl>
+        <Point><coordinates>-22.8665,-30.5475</coordinates></Point>
+      </Placemark>
+      <Placemark>
+        <name>ID 162 - 04/05/2016</name>
+        <description>Grupo: Ajustes_Residuo\nEntidad: Oaxaca</description>
+        <styleUrl>#estiloAjustes</styleUrl>
+        <Point><coordinates>-22.8905,-30.5715</coordinates></Point>
+      </Placemark>
+      <Placemark>
+        <name>ID 163 - 10/05/2017</name>
+        <description>Grupo: Ajustes_Residuo\nEntidad: Oaxaca</description>
+        <styleUrl>#estiloAjustes</styleUrl>
+        <Point><coordinates>-22.8655,-30.5465</coordinates></Point>
+      </Placemark>
+      <Placemark>
+        <name>ID 164 - 15/05/2018</name>
+        <description>Grupo: Ajustes_Residuo\nEntidad: Oaxaca</description>
+        <styleUrl>#estiloAjustes</styleUrl>
+        <Point><coordinates>-22.8915,-30.5725</coordinates></Point>
+      </Placemark>
+      <Placemark>
+        <name>ID 165 - 20/05/2019</name>
+        <description>Grupo: Ajustes_Residuo\nEntidad: Oaxaca</description>
+        <styleUrl>#estiloAjustes</styleUrl>
+        <Point><coordinates>-22.8645,-30.5455</coordinates></Point>
+      </Placemark>
+      <Placemark>
+        <name>ID 166 - 24/05/2020</name>
+        <description>Grupo: Ajustes_Residuo\nEntidad: Oaxaca</description>
+        <styleUrl>#estiloAjustes</styleUrl>
+        <Point><coordinates>-22.8925,-30.5735</coordinates></Point>
+      </Placemark>
+      <Placemark>
+        <name>ID 167 - 30/05/2021</name>
+        <description>Grupo: Ajustes_Residuo\nEntidad: Oaxaca</description>
+        <styleUrl>#estiloAjustes</styleUrl>
+        <Point><coordinates>-22.8635,-30.5445</coordinates></Point>
+      </Placemark>
+      <Placemark>
+        <name>ID 168 - 04/06/2022</name>
+        <description>Grupo: Ajustes_Residuo\nEntidad: Oaxaca</description>
+        <styleUrl>#estiloAjustes</styleUrl>
+        <Point><coordinates>-22.8935,-30.5745</coordinates></Point>
+      </Placemark>
+      <Placemark>
+        <name>ID 169 - 09/06/2023</name>
+        <description>Grupo: Ajustes_Residuo\nEntidad: Oaxaca</description>
+        <styleUrl>#estiloAjustes</styleUrl>
+        <Point><coordinates>-22.8625,-30.5435</coordinates></Point>
+      </Placemark>
+      <Placemark>
+        <name>ID 170 - 13/06/2024</name>
+        <description>Grupo: Ajustes_Residuo\nEntidad: Oaxaca</description>
+        <styleUrl>#estiloAjustes</styleUrl>
+        <Point><coordinates>-22.8945,-30.5755</coordinates></Point>
+      </Placemark>
+      <Placemark>
+        <name>ID 171 - 19/06/2025</name>
+        <description>Grupo: Ajustes_Residuo\nEntidad: Oaxaca</description>
+        <styleUrl>#estiloAjustes</styleUrl>
+        <Point><coordinates>-22.8615,-30.5425</coordinates></Point>
+      </Placemark>
+    </Folder>
+  </Document>
+</kml>
