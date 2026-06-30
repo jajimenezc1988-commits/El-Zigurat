@@ -47,7 +47,18 @@ FECHA_NACIMIENTO = datetime(1988, 2, 4, 0, 0, 0)
 #  MotorInterpretacion, CargadorDatos, SistemaZigurat)
 # ... SE MANTIENEN IGUAL QUE EN LA VERSIÓN ANTERIOR ...
 # =============================================================================
+# =============================================================================
+# DICCIONARIO DE INTERPRETACIÓN VECTORIAL
+# =============================================================================
 
+VECTOR_INTERPRETACION = {
+    # Eje 1 (Sustancias Químicas)
+    (1, 1): "Vector Fundador: Voluntad divina en materia prima",
+    (1, 2): "Vector de Origen: Sabiduría manifestada en sustancias",
+    (1, 3): "Vector de Comprensión: Entendimiento de la materia",
+    (1, 4): "Vector de Misericordia: Materia como don",
+    # ... (completar con los 672 combinaciones posibles, o mejor, usar una función que la genere dinámicamente)
+}
 # =============================================================================
 # NUEVA FUNCIÓN: GENERAR CSV DESDE INEGI
 # =============================================================================
