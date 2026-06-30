@@ -1,0 +1,18 @@
+ID,Grupo,Año,Dia_Juliano,Fecha_Nacimiento,Eje,Ley,Residuo,Funcion_Vectorial_VRIL
+0,Centro_Arbol,1988,35,04/02/1988,V1,L1,62,Vector Fundador: Codifica la voluntad divina en su estado más puro. SOPHIA como punto cero.
+1,Eje_Norte_Guadalajara,1855,13,13/01/1855,V2,L2,75,Vector de Frontera: Codifica el inicio del intercambio entre sistemas.
+2,Eje_Norte_Guadalajara,1856,26,26/01/1856,V3,L3,88,Vector de Construcción: Codifica la materialización de la voluntad en estructura.
+3,Eje_Norte_Guadalajara,1857,39,08/02/1857,V4,L4,101,Vector de Código: Codifica la memoria heredada.
+4,Eje_Norte_Guadalajara,1858,52,21/02/1858,V5,L5,114,Vector de Conteo: Codifica la primera segmentación demográfica.
+5,Eje_Norte_Guadalajara,1859,65,06/03/1859,V6,L6,127,Vector de Verificación: Codifica el equilibrio inicial del sistema.
+6,Eje_Norte_Guadalajara,1860,78,19/03/1860,V7,L7,140,Vector de Patrón: Codifica el ritmo atmosférico primigenio.
+7,Eje_Norte_Guadalajara,1861,91,01/04/1861,V8,L8,153,Vector de Estructura: Codifica el primer orden político.
+8,Eje_Norte_Guadalajara,1862,104,14/04/1862,V9,L9,166,Vector de Mente: Codifica el despertar de la conciencia colectiva.
+9,Eje_Norte_Guadalajara,1863,117,27/04/1863,V10,L10,179,Vector de Flujo: Codifica la circulación de recursos inicial.
+10,Eje_Norte_Guadalajara,1864,130,10/05/1864,V11,L11,192,Vector de Sanación: Codifica la primera respuesta de salud.
+11,Eje_Norte_Guadalajara,1865,143,23/05/1865,V12,L12,205,Vector de Reloj: Codifica la primera observación de los ciclos mayores.
+12,Eje_Norte_Guadalajara,1866,156,05/06/1866,V13,L13,218,Vector de Entropía: Codifica el calor acumulado del sistema.
+13,Eje_Norte_Guadalajara,1867,169,18/06/1867,V14,L14,231,Vector de Memoria: Codifica la primera capa de registro histórico.
+14,Eje_Norte_Guadalajara,1868,182,01/07/1868,V15,L15,244,Vector de Diversidad: Codifica la primera expresión de diferencia cultural.
+15,Eje_Norte_Guadalajara,1869,195,16/07/1869,V16,L16,257,Vector de Red: Codifica el primer impulso de conexión global.
+... (y así sucesivamente hasta el ID 171)
