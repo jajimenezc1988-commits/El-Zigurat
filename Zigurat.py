@@ -814,7 +814,6 @@ FECHA_NACIMIENTO = datetime(1988, 2, 4, 0, 0, 0)
 #  MotorInterpretacion, CargadorDatos, SistemaZigurat)
 # ... SE MANTIENEN IGUAL QUE EN LA VERSIÓN ANTERIOR ...
 # =============================================================================
-# =============================================================================
 # DICCIONARIO DE INTERPRETACIÓN VECTORIAL
 # =============================================================================
 
@@ -824,24 +823,62 @@ VECTOR_INTERPRETACION = {
     (1, 2): "Vector de Origen: Sabiduría manifestada en sustancias",
     (1, 3): "Vector de Comprensión: Entendimiento de la materia",
     (1, 4): "Vector de Misericordia: Materia como don",
-    # ... (completar con los 672 combinaciones posibles, o mejor, usar una función que la genere dinámicamente)
+    # ... (completar con los 672 combinaciones posibles, o usar función dinámica)
 }
-def cmd_report(self, fecha_cierre=None):
-    print("\n[REPORTE VECTORIAL VRIL]")
-    for nodo in self.datos.nodos[:20]:  # Muestra los primeros 20 como ejemplo
-        id_nodo = int(nodo["ID"])
-        eje = (id_nodo % 16) + 1
-        ley = (id_nodo % 42) + 1
-        residuo = (ANCLAJE + (eje * ley * MODULO)) % CICLO
+
+# 1️⃣ FUNCIÓN GLOBAL INDEPENDIENTE (A ras de margen izquierdo, arriba de la clase)
+def calcular_vector(nodo: dict) -> Tuple[int, int, int, str]:
+    """Calcula o hereda el eje, ley, residuo e interpretación de un nodo."""
+    id_nodo = int(nodo["ID"])
+    
+    # Si el CSV ya tiene los datos reales grabados, se extraen directamente
+    if "Eje" in nodo and "Ley" in nodo and "Residuo" in nodo:
+        eje = int(str(nodo["Eje"]).replace('V', ''))
+        ley = int(str(nodo["Ley"]).replace('L', ''))
+        residuo = int(nodo["Residuo"])
+    else:
+        # Fallback de cálculo por si el nodo no está inicializado en la tabla
+        if id_nodo == 0:
+            eje, ley, residuo = 1, 1, 62
+        else:
+            eje = ((id_nodo - 1) % 16) + 2
+            if eje > 16: eje = 1
+            ley = ((id_nodo - 1) % 42) + 2
+            if ley > 42: ley = 1
+            residuo = (ANCLAJE + (eje * ley * MODULO)) % CICLO
+            
+    interpretacion = nodo.get("Funcion_Vectorial_VRIL")
+    if not interpretacion:
         interpretacion = VECTOR_INTERPRETACION.get((eje, ley), "Vector no clasificado")
-        print(f"ID {id_nodo:3d}: Eje V{eje} × Ley L{ley:2d} → Residuo {residuo:3d} → {interpretacion}")
+        
+    return eje, ley, residuo, interpretacion
+
 # =============================================================================
 # NUEVA FUNCIÓN: GENERAR CSV DESDE INEGI
 # =============================================================================
 
 class SistemaZigurat:
-    # ... (todo el __init__ y comandos anteriores se mantienen) ...
+    # ... (Aquí dentro se quedan intactos tu __init__ y comandos anteriores con sus 4 espacios) ...
 
+    # 2️⃣ EL COMANDO MIGRADO (Lleva 4 espacios de indentación por estar dentro de la clase)
+    def cmd_report(self, fecha_cierre=None):
+        print("\n[REPORTE VECTORIAL VRIL]")
+        print("═"*70)
+        
+        if not hasattr(self, 'datos') or not self.datos.nodos:
+            print("[!] Error: No hay nodos cargados en el sistema.")
+            return
+
+        for nodo in self.datos.nodos:  # Procesa todos los nodos incluyendo tu ID 172
+            id_nodo = int(nodo["ID"])
+            
+            # Invoca a la función global pasándole el nodo completo
+            eje, ley, residuo, interpretacion = calcular_vector(nodo)
+            
+            print(f"ID {id_nodo:3d}: Eje V{eje} × Ley L{ley:2d} → Residuo {residuo:3d} → {interpretacion}")
+        print("═"*70)
+
+    # 3️⃣ TU FUNCIÓN ORIGINAL COMPLETA DE INEGI (Sigue aquí abajo con 4 espacios de sangría)
     def cmd_build(self):
         """Genera el archivo adam_con_inegi_agregado.csv desde los datos originales."""
         print("\n[BUILD] Generando CSV maestro desde INEGI...")
