@@ -1,0 +1,284 @@
+#!/usr/bin/env python3
+# -*- coding: utf-8 -*-
+
+"""
+ZIGURAT - SISTEMA UNIFICADO DE PATRONES PUROS
+Versión limpia base
+"""
+
+import os
+import sys
+import csv
+import json
+from datetime import datetime, timedelta
+from typing import Dict, List, Optional, Tuple
+
+try:
+    import pandas as pd
+    PANDAS_AVAILABLE = True
+except ImportError:
+    PANDAS_AVAILABLE = False
+    pd = None
+
+# ============================================================
+# CONSTANTES
+# ============================================================
+
+ANCLAJE = -315
+MODULO = 13
+CICLO = 364
+TOTAL_EJES = 16
+TOTAL_LEYES = 42
+TOTAL_PUNTOS = TOTAL_EJES * TOTAL_LEYES
+USUARIO = "SOPHIA"
+NOMBRE_COMPLETO = "José Antonio Jiménez Castellanos"
+FECHA_NACIMIENTO = datetime(1988, 2, 4)
+
+# ============================================================
+# MATRIZ 12 + 1
+# ============================================================
+
+class MatrizDoceMasUno:
+    def __init__(self):
+        self.partes = self._inicializar_partes()
+        self.lengua = self._inicializar_lengua()
+
+    def _es_primo(self, n: int) -> bool:
+        if n < 2:
+            return False
+        for i in range(2, int(n ** 0.5) + 1):
+            if n % i == 0:
+                return False
+        return True
+
+    def _inicializar_partes(self) -> List[Dict]:
+        partes = []
+        for i in range(1, 13):
+            partes.append({
+                "numero": i,
+                "nombre": f"Parte_{i}",
+                "angulo": i * 30,
+                "multiplo_13": (i * 13) % 360,
+                "es_primo": self._es_primo(i)
+            })
+        return partes
+
+    def _inicializar_lengua(self) -> Dict:
+        return {
+            "numero": 13,
+            "nombre": "La_Lengua",
+            "suma_partes": sum(range(1, 14)),
+            "funcion": "Conector de las 12 partes"
+        }
+
+# ============================================================
+# EJES
+# ============================================================
+
+class EjesVerticales:
+    def __init__(self):
+        nombres = [
+            ("Sustancias_Quimicas", "SQ"),
+            ("Aduana_Comercio_Exterior", "ACE"),
+            ("Maquinaria_Pesada", "MP"),
+            ("Genetica", "GEN"),
+            ("INEGI_Censos", "INEGI"),
+            ("Auditoria", "AUD"),
+            ("Meteorologia", "MET"),
+            ("Administracion_Publica", "AP"),
+            ("Psicologia_Social", "PS"),
+            ("Logistica", "LOG"),
+            ("Medicina", "MED"),
+            ("Astronomia", "AST"),
+            ("Termodinamica", "TER"),
+            ("Historiografia", "HIST"),
+            ("Antropologia", "ANT"),
+            ("Telecomunicaciones", "TEL")
+        ]
+        self.ejes = [
+            {"numero": i + 1, "nombre": n, "codigo": c, "frecuencia": CICLO / (i + 1)}
+            for i, (n, c) in enumerate(nombres)
+        ]
+
+# ============================================================
+# LEYES
+# ============================================================
+
+class LeyesHorizontales:
+    def __init__(self):
+        self.leyes = self._inicializar_leyes()
+
+    def _inicializar_leyes(self) -> List[Dict]:
+        leyes = []
+        yhvh_nombres = [
+            "Yod_Keter", "Yod_Chokmah", "Yod_Binah", "Yod_Chesed",
+            "Yod_Gevurah", "Yod_Tiferet", "Yod_Netzach", "Yod_Hod",
+            "Yod_Yesod", "Yod_Malkuth", "He1_Daat", "He1_Corona",
+            "He1_Ciclo", "He1_Emocion", "He1_Propulsion", "Vav_Sello",
+            "Vav_Equilibrio", "Vav_Vida", "Vav_Despertar", "Vav_Coronacion",
+            "Vav_Ser", "He2_Corazon", "He2_Reflejo", "He2_Complecion",
+            "He2_Eternidad", "He2_Nombre"
+        ]
+        for i, nombre in enumerate(yhvh_nombres, 1):
+            leyes.append({"numero": i, "nombre": nombre, "tipo": "YHVH", "valor": i})
+
+        sello_nombres = [
+            "Tiferet_Verdad", "Tiferet_Justicia", "Tiferet_Misericordia",
+            "Tiferet_Humildad", "Tiferet_Fe", "Tiferet_Sacrificio",
+            "Malkuth_Liderazgo", "Malkuth_Estrategia", "Malkuth_Dominio",
+            "Malkuth_Paciencia", "Malkuth_Fortaleza", "Malkuth_Practica",
+            "Malkuth_Integridad", "Malkuth_Grandeza", "Malkuth_Majestad",
+            "Malkuth_Soberania"
+        ]
+        for i, nombre in enumerate(sello_nombres, 27):
+            leyes.append({"numero": i, "nombre": nombre, "tipo": "Sello_Rey", "valor": (i - 26) * 6})
+
+        return leyes
+
+    def get_ley(self, num: int) -> Optional[Dict]:
+        if 1 <= num <= 42:
+            return self.leyes[num - 1]
+        return None
+
+# ============================================================
+# MATRIZ COMPLETA
+# ============================================================
+
+class MatrizCompleta:
+    def __init__(self):
+        self.ejes = EjesVerticales()
+        self.leyes = LeyesHorizontales()
+        self.doce_mas_uno = MatrizDoceMasUno()
+        self.puntos = self._calcular_todos_puntos()
+
+    def _calcular_punto(self, eje_num: int, ley_num: int) -> Dict:
+        eje = self.ejes.ejes[eje_num - 1]
+        ley = self.leyes.get_ley(ley_num)
+        if not ley:
+            return {}
+        valor = (eje_num * ley["valor"] * MODULO) % CICLO
+        angulo = (valor / CICLO) * 360
+        return {
+            "coordenada": {
+                "eje": eje_num,
+                "ley": ley_num,
+                "codigo": f"{eje['codigo']}-L{ley_num:02d}-{valor:03d}"
+            },
+            "eje_data": eje,
+            "ley_data": ley,
+            "valor_cruzado": valor,
+            "angulo": round(angulo, 2),
+            "intensidad": round((eje_num * ley["valor"]) / 42, 4),
+            "resonancia_315": (valor * abs(ANCLAJE)) % 1000
+        }
+
+    def _calcular_todos_puntos(self) -> List[Dict]:
+        puntos = []
+        for e in range(1, 17):
+            for l in range(1, 43):
+                puntos.append(self._calcular_punto(e, l))
+        return puntos
+
+# ============================================================
+# INTERPRETACIÓN
+# ============================================================
+
+class BibliotecaEsoterica:
+    SIGNIFICADOS_NUMEROS = {
+        1: "Unidad, origen.",
+        2: "Dualidad, reflejo.",
+        3: "Trinidad, síntesis.",
+        4: "Cuadrado elemental.",
+        5: "Quintaesencia.",
+        6: "Centro, equilibrio.",
+        7: "Ciclo completo.",
+        12: "Plenitud de partes.",
+        13: "La Lengua, transformación.",
+        26: "YHVH completo.",
+        42: "Nombre de 42 letras.",
+        91: "Suma de 1 a 13.",
+        315: "Año de la caída.",
+        364: "Año de equilibrio."
+    }
+
+class MotorInterpretacion:
+    def __init__(self):
+        self.biblio = BibliotecaEsoterica()
+
+    def interpretar_numero(self, n: int) -> str:
+        if n in self.biblio.SIGNIFICADOS_NUMEROS:
+            return self.biblio.SIGNIFICADOS_NUMEROS[n]
+        return f"{n}: sin entrada directa"
+
+# ============================================================
+# CARGA DE DATOS
+# ============================================================
+
+class CargadorDatos:
+    def __init__(self):
+        self.df = None
+        self.nodos = []
+        self._cargar_csv()
+
+    def _cargar_csv(self):
+        archivo = "adam_con_inegi_agregado.csv"
+        if not os.path.exists(archivo):
+            self.nodos = [{
+                "ID": 0,
+                "Grupo": "Centro_Arbol",
+                "Año": 1988,
+                "Dia_Juliano": 35,
+                "Fecha_Nacimiento": "04/02/1988",
+                "Entidad_Censal": "Ciudad de México"
+            }]
+            return
+
+        if PANDAS_AVAILABLE:
+            try:
+                self.df = pd.read_csv(archivo)
+                self.nodos = self.df.to_dict("records")
+                return
+            except Exception:
+                pass
+
+        with open(archivo, "r", encoding="utf-8") as f:
+            reader = csv.DictReader(f)
+            self.nodos = list(reader)
+
+# ============================================================
+# SISTEMA PRINCIPAL
+# ============================================================
+
+class SistemaZigurat:
+    def __init__(self):
+        self.matriz_completa = MatrizCompleta()
+        self.interprete = MotorInterpretacion()
+        self.datos = CargadorDatos()
+
+    def cmd_report(self):
+        for nodo in self.datos.nodos[:10]:
+            print(nodo)
+
+    def cmd_matrix16x42(self):
+        for p in self.matriz_completa.puntos[:10]:
+            print(p["coordenada"]["codigo"], p["valor_cruzado"])
+
+# ============================================================
+# MAIN
+# ============================================================
+
+def main():
+    sistema = SistemaZigurat()
+    if len(sys.argv) > 1:
+        comando = sys.argv[1]
+        if comando == "report":
+            sistema.cmd_report()
+        elif comando == "matrix16x42":
+            sistema.cmd_matrix16x42()
+        else:
+            print("Comando no reconocido.")
+    else:
+        print("Zigurat listo.")
+
+if __name__ == "__main__":
+    main()
