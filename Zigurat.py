@@ -1,5 +1,3 @@
-#!/usr/bin/env python3
-# -*- coding: utf-8 -*-
 """
 ZIGURAT - SISTEMA UNIFICADO DE PATRONES PUROS
 Versión: 2.0 (Unificada Final)
