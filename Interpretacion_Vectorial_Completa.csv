@@ -1,18 +1,173 @@
-ID,Grupo,Año,Dia_Juliano,Fecha_Nacimiento,Eje,Ley,Residuo,Funcion_Vectorial_VRIL
-0,Centro_Arbol,1988,35,04/02/1988,V1,L1,62,Vector Fundador: Codifica la voluntad divina en su estado más puro. SOPHIA como punto cero.
-1,Eje_Norte_Guadalajara,1855,13,13/01/1855,V2,L2,75,Vector de Frontera: Codifica el inicio del intercambio entre sistemas.
-2,Eje_Norte_Guadalajara,1856,26,26/01/1856,V3,L3,88,Vector de Construcción: Codifica la materialización de la voluntad en estructura.
-3,Eje_Norte_Guadalajara,1857,39,08/02/1857,V4,L4,101,Vector de Código: Codifica la memoria heredada.
-4,Eje_Norte_Guadalajara,1858,52,21/02/1858,V5,L5,114,Vector de Conteo: Codifica la primera segmentación demográfica.
-5,Eje_Norte_Guadalajara,1859,65,06/03/1859,V6,L6,127,Vector de Verificación: Codifica el equilibrio inicial del sistema.
-6,Eje_Norte_Guadalajara,1860,78,19/03/1860,V7,L7,140,Vector de Patrón: Codifica el ritmo atmosférico primigenio.
-7,Eje_Norte_Guadalajara,1861,91,01/04/1861,V8,L8,153,Vector de Estructura: Codifica el primer orden político.
-8,Eje_Norte_Guadalajara,1862,104,14/04/1862,V9,L9,166,Vector de Mente: Codifica el despertar de la conciencia colectiva.
-9,Eje_Norte_Guadalajara,1863,117,27/04/1863,V10,L10,179,Vector de Flujo: Codifica la circulación de recursos inicial.
-10,Eje_Norte_Guadalajara,1864,130,10/05/1864,V11,L11,192,Vector de Sanación: Codifica la primera respuesta de salud.
-11,Eje_Norte_Guadalajara,1865,143,23/05/1865,V12,L12,205,Vector de Reloj: Codifica la primera observación de los ciclos mayores.
-12,Eje_Norte_Guadalajara,1866,156,05/06/1866,V13,L13,218,Vector de Entropía: Codifica el calor acumulado del sistema.
-13,Eje_Norte_Guadalajara,1867,169,18/06/1867,V14,L14,231,Vector de Memoria: Codifica la primera capa de registro histórico.
-14,Eje_Norte_Guadalajara,1868,182,01/07/1868,V15,L15,244,Vector de Diversidad: Codifica la primera expresión de diferencia cultural.
-15,Eje_Norte_Guadalajara,1869,195,16/07/1869,V16,L16,257,Vector de Red: Codifica el primer impulso de conexión global.
-... (y así sucesivamente hasta el ID 171)
+ID	Grupo	Año	Dia_Juliano	Fecha_Nacimiento	Eje	Ley	Residuo	Funcion_Vectorial_VRIL
+0	Centro_Arbol	1988	35	04/02/88	V1	L1	62	Vector Fundador: Voluntad divina en su estado más puro. SOPHIA como punto cero.
+1	Eje_Norte_Guadalajara	1855	13	13/01/1855	V2	L2	75	Vector de Frontera: Codifica el intercambio entre sistemas en su estado inicial.
+2	Eje_Norte_Guadalajara	1856	26	26/01/1856	V3	L3	88	Vector de Construcción: Codifica la materialización de la voluntad en estructura física.
+3	Eje_Norte_Guadalajara	1857	39	08/02/1857	V4	L4	101	Vector de Código: Codifica la memoria heredada como patrón de comportamiento.
+4	Eje_Norte_Guadalajara	1858	52	21/02/1858	V5	L5	114	Vector de Conteo: Codifica la primera segmentación demográfica como base de organización.
+5	Eje_Norte_Guadalajara	1859	65	06/03/1859	V6	L6	127	Vector de Verificación: Codifica el equilibrio inicial del sistema como base de justicia.
+6	Eje_Norte_Guadalajara	1860	78	19/03/1860	V7	L7	140	Vector de Patrón: Codifica el ritmo atmosférico primigenio como base de ciclo.
+7	Eje_Norte_Guadalajara	1861	91	01/04/1861	V8	L8	153	Vector de Estructura: Codifica el primer orden político como base de autoridad.
+8	Eje_Norte_Guadalajara	1862	104	14/04/1862	V9	L9	166	Vector de Mente: Codifica el despertar de la conciencia colectiva como base de sociedad.
+9	Eje_Norte_Guadalajara	1863	117	27/04/1863	V10	L10	179	Vector de Flujo: Codifica la circulación de recursos como base de intercambio.
+10	Eje_Norte_Guadalajara	1864	130	10/05/1864	V11	L11	192	Vector de Sanación: Codifica la primera respuesta de salud como base de bienestar.
+11	Eje_Norte_Guadalajara	1865	143	23/05/1865	V12	L12	205	Vector de Reloj: Codifica la primera observación de los ciclos mayores como base de tiempo.
+12	Eje_Norte_Guadalajara	1866	156	05/06/1866	V13	L13	218	Vector de Entropía: Codifica el calor acumulado del sistema como base de cambio.
+13	Eje_Norte_Guadalajara	1867	169	18/06/1867	V14	L14	231	Vector de Memoria: Codifica la primera capa de registro histórico como base de identidad.
+14	Eje_Norte_Guadalajara	1868	182	01/07/1868	V15	L15	244	Vector de Diversidad: Codifica la primera expresión de diferencia cultural como base de riqueza.
+15	Eje_Norte_Guadalajara	1869	195	14/07/1869	V16	L16	257	Vector de Red: Codifica el primer impulso de conexión global como base de comunicación.
+16	Eje_Norte_Guadalajara	1870	208	27/07/1870	V1	L17	270	Vector de Materia: Codifica la segunda capa de manifestación material.
+17	Eje_Norte_Guadalajara	1871	221	09/08/1871	V2	L18	283	Vector de Intercambio: Codifica la segunda capa de flujo entre sistemas.
+18	Eje_Norte_Guadalajara	1872	234	22/08/1872	V3	L19	296	Vector de Fuerza: Codifica la segunda capa de construcción física.
+19	Eje_Norte_Guadalajara	1873	247	04/09/1873	V4	L20	309	Vector de Herencia: Codifica la segunda capa de código genético.
+20	Eje_Norte_Guadalajara	1874	260	17/09/1874	V5	L21	322	Vector de Estadística: Codifica la segunda capa de conteo demográfico.
+21	Eje_Norte_Guadalajara	1875	273	30/09/1875	V6	L22	335	Vector de Justicia: Codifica la segunda capa de verificación.
+22	Eje_Norte_Guadalajara	1876	286	13/10/1876	V7	L23	348	Vector de Clima: Codifica la segunda capa de patrón atmosférico.
+23	Eje_Norte_Guadalajara	1877	299	26/10/1877	V8	L24	361	Vector de Gobierno: Codifica la segunda capa de estructura política.
+24	Eje_Norte_Guadalajara	1878	312	08/11/1878	V9	L25	10	Vector de Sociedad: Codifica la segunda capa de psicología colectiva.
+25	Eje_Norte_Guadalajara	1879	325	21/11/1879	V10	L26	23	Vector de Logística: Codifica la segunda capa de flujo energético.
+26	Eje_Norte_Guadalajara	1880	338	04/12/1880	V11	L27	36	Vector de Salud: Codifica la segunda capa de sanación.
+27	Eje_Este_Potosi	1881	14	14/01/1881	V12	L28	49	Vector de Astronomía: Codifica la segunda capa de reloj cósmico.
+28	Eje_Este_Potosi	1882	27	27/01/1882	V13	L29	62	Vector de Termodinámica: Codifica la segunda capa de entropía.
+29	Eje_Este_Potosi	1883	40	09/02/1883	V14	L30	75	Vector de Historia: Codifica la segunda capa de memoria.
+30	Eje_Este_Potosi	1884	53	22/02/1884	V15	L31	88	Vector de Cultura: Codifica la segunda capa de diversidad.
+31	Eje_Este_Potosi	1885	66	07/03/1885	V16	L32	101	Vector de Telecomunicaciones: Codifica la segunda capa de red global.
+32	Eje_Este_Potosi	1886	79	20/03/1886	V1	L33	114	Vector de Materia Avanzada: Codifica la tercera capa de manifestación.
+33	Eje_Este_Potosi	1887	92	02/04/1887	V2	L34	127	Vector de Comercio: Codifica la tercera capa de intercambio.
+34	Eje_Este_Potosi	1888	105	15/04/1888	V3	L35	140	Vector de Maquinaria: Codifica la tercera capa de construcción.
+35	Eje_Este_Potosi	1889	118	28/04/1889	V4	L36	153	Vector de Genética: Codifica la tercera capa de código.
+36	Eje_Este_Potosi	1890	131	11/05/1890	V5	L37	166	Vector de Censo: Codifica la tercera capa de conteo.
+37	Eje_Este_Potosi	1891	144	24/05/1891	V6	L38	179	Vector de Auditoría: Codifica la tercera capa de verificación.
+38	Eje_Este_Potosi	1892	157	05/06/1892	V7	L39	192	Vector de Meteorología: Codifica la tercera capa de patrón.
+39	Eje_Este_Potosi	1893	170	19/06/1893	V8	L40	205	Vector de Administración: Codifica la tercera capa de estructura.
+40	Eje_Este_Potosi	1894	183	02/07/1894	V9	L41	218	Vector de Psicología: Codifica la tercera capa de mente colectiva.
+41	Eje_Este_Potosi	1895	196	15/07/1895	V10	L42	231	Vector de Logística: Codifica la tercera capa de flujo.
+42	Eje_Este_Potosi	1896	209	27/07/1896	V11	L1	244	Vector de Medicina: Codifica la tercera capa de sanación.
+43	Eje_Este_Potosi	1897	222	10/08/1897	V12	L2	257	Vector de Astronomía: Codifica la tercera capa de tiempo.
+44	Eje_Este_Potosi	1898	235	23/08/1898	V13	L3	270	Vector de Termodinámica: Codifica la tercera capa de entropía.
+45	Eje_Este_Potosi	1899	248	05/09/1899	V14	L4	283	Vector de Historia: Codifica la tercera capa de memoria.
+46	Eje_Este_Potosi	1900	261	18/09/00	V15	L5	296	Vector de Antropología: Codifica la tercera capa de diversidad.
+47	Eje_Este_Potosi	1901	274	01/10/01	V16	L6	309	Vector de Telecomunicaciones: Codifica la tercera capa de red.
+48	Eje_Este_Potosi	1902	287	14/10/02	V1	L7	322	Vector de Materia: Codifica la cuarta capa de manifestación.
+49	Eje_Este_Potosi	1903	300	27/10/03	V2	L8	335	Vector de Comercio: Codifica la cuarta capa de intercambio.
+50	Eje_Este_Potosi	1904	313	08/11/04	V3	L9	348	Vector de Maquinaria: Codifica la cuarta capa de construcción.
+51	Eje_Este_Potosi	1905	326	22/11/05	V4	L10	361	Vector de Genética: Codifica la cuarta capa de código.
+52	Eje_Este_Potosi	1906	339	05/12/06	V5	L11	10	Vector de Censo: Codifica la cuarta capa de conteo.
+53	Eje_Oeste_Concepcion	1907	15	15/01/07	V6	L12	23	Vector de Auditoría: Codifica la cuarta capa de verificación.
+54	Eje_Oeste_Concepcion	1908	28	28/01/08	V7	L13	36	Vector de Meteorología: Codifica la cuarta capa de patrón.
+55	Eje_Oeste_Concepcion	1909	41	10/02/09	V8	L14	49	Vector de Administración: Codifica la cuarta capa de estructura.
+56	Eje_Oeste_Concepcion	1910	54	23/02/10	V9	L15	62	Vector de Psicología: Codifica la cuarta capa de mente.
+57	Eje_Oeste_Concepcion	1911	67	08/03/11	V10	L16	75	Vector de Logística: Codifica la cuarta capa de flujo.
+58	Eje_Oeste_Concepcion	1912	80	20/03/12	V11	L17	88	Vector de Medicina: Codifica la cuarta capa de sanación.
+59	Eje_Oeste_Concepcion	1913	93	03/04/13	V12	L18	101	Vector de Astronomía: Codifica la cuarta capa de tiempo.
+60	Eje_Oeste_Concepcion	1914	106	16/04/14	V13	L19	114	Vector de Termodinámica: Codifica la cuarta capa de entropía.
+61	Eje_Oeste_Concepcion	1915	119	29/04/15	V14	L20	127	Vector de Historia: Codifica la cuarta capa de memoria.
+62	Eje_Oeste_Concepcion	1916	132	11/05/16	V15	L21	140	Vector de Antropología: Codifica la cuarta capa de diversidad.
+63	Eje_Oeste_Concepcion	1917	145	25/05/17	V16	L22	153	Vector de Telecomunicaciones: Codifica la cuarta capa de red.
+64	Eje_Oeste_Concepcion	1918	158	07/06/18	V1	L23	166	Vector de Materia: Codifica la quinta capa de manifestación.
+65	Eje_Oeste_Concepcion	1919	171	20/06/19	V2	L24	179	Vector de Comercio: Codifica la quinta capa de intercambio.
+66	Eje_Oeste_Concepcion	1920	184	02/07/20	V3	L25	192	Vector de Maquinaria: Codifica la quinta capa de construcción.
+67	Eje_Oeste_Concepcion	1921	197	16/07/21	V4	L26	205	Vector de Genética: Codifica la quinta capa de código.
+68	Eje_Oeste_Concepcion	1922	210	29/07/22	V5	L27	218	Vector de Censo: Codifica la quinta capa de conteo.
+69	Eje_Oeste_Concepcion	1923	223	11/08/23	V6	L28	231	Vector de Auditoría: Codifica la quinta capa de verificación.
+70	Eje_Oeste_Concepcion	1924	236	23/08/24	V7	L29	244	Vector de Meteorología: Codifica la quinta capa de patrón.
+71	Eje_Oeste_Concepcion	1925	249	06/09/25	V8	L30	257	Vector de Administración: Codifica la quinta capa de estructura.
+72	Eje_Oeste_Concepcion	1926	262	19/09/26	V9	L31	270	Vector de Psicología: Codifica la quinta capa de mente.
+73	Eje_Oeste_Concepcion	1927	275	02/10/27	V10	L32	283	Vector de Logística: Codifica la quinta capa de flujo.
+74	Eje_Oeste_Concepcion	1928	288	14/10/28	V11	L33	296	Vector de Medicina: Codifica la quinta capa de sanación.
+75	Eje_Oeste_Concepcion	1929	301	28/10/29	V12	L34	309	Vector de Astronomía: Codifica la quinta capa de tiempo.
+76	Eje_Oeste_Concepcion	1930	314	10/11/30	V13	L35	322	Vector de Termodinámica: Codifica la quinta capa de entropía.
+77	Eje_Oeste_Concepcion	1931	327	23/11/31	V14	L36	335	Vector de Historia: Codifica la quinta capa de memoria.
+78	Eje_Oeste_Concepcion	1932	340	06/12/32	V15	L37	348	Vector de Antropología: Codifica la quinta capa de diversidad.
+79	Eje_Sur_Bariloche	1933	16	16/01/33	V16	L38	361	Vector de Telecomunicaciones: Codifica la quinta capa de red.
+80	Eje_Sur_Bariloche	1934	29	29/01/34	V1	L39	10	Vector de Materia: Codifica la sexta capa de manifestación.
+81	Eje_Sur_Bariloche	1935	42	11/02/35	V2	L40	23	Vector de Comercio: Codifica la sexta capa de intercambio.
+82	Eje_Sur_Bariloche	1936	55	24/02/36	V3	L41	36	Vector de Maquinaria: Codifica la sexta capa de construcción.
+83	Eje_Sur_Bariloche	1937	68	09/03/37	V4	L42	49	Vector de Genética: Codifica la sexta capa de código.
+84	Eje_Sur_Bariloche	1938	81	22/03/38	V5	L1	62	Vector de Censo: Codifica la sexta capa de conteo.
+85	Eje_Sur_Bariloche	1939	94	04/04/39	V6	L2	75	Vector de Auditoría: Codifica la sexta capa de verificación.
+86	Eje_Sur_Bariloche	1940	107	16/04/40	V7	L3	88	Vector de Meteorología: Codifica la sexta capa de patrón.
+87	Eje_Sur_Bariloche	1941	120	30/04/41	V8	L4	101	Vector de Administración: Codifica la sexta capa de estructura.
+88	Eje_Sur_Bariloche	1942	133	13/05/42	V9	L5	114	Vector de Psicología: Codifica la sexta capa de mente.
+89	Eje_Sur_Bariloche	1943	146	26/05/43	V10	L6	127	Vector de Logística: Codifica la sexta capa de flujo.
+90	Eje_Sur_Bariloche	1944	159	08/06/44	V11	L7	140	Vector de Medicina: Codifica la sexta capa de sanación.
+91	Eje_Sur_Bariloche	1945	172	21/06/45	V12	L8	153	Vector de Astronomía: Codifica la sexta capa de tiempo.
+92	Eje_Sur_Bariloche	1946	185	04/07/46	V13	L9	166	Vector de Termodinámica: Codifica la sexta capa de entropía.
+93	Eje_Sur_Bariloche	1947	198	17/07/47	V14	L10	179	Vector de Historia: Codifica la sexta capa de memoria.
+94	Eje_Sur_Bariloche	1948	211	29/07/48	V15	L11	192	Vector de Antropología: Codifica la sexta capa de diversidad.
+95	Eje_Sur_Bariloche	1949	224	12/08/49	V16	L12	205	Vector de Telecomunicaciones: Codifica la sexta capa de red.
+96	Eje_Sur_Bariloche	1950	237	25/08/50	V1	L13	218	Vector de Materia: Codifica la séptima capa de manifestación.
+97	Eje_Sur_Bariloche	1951	250	07/09/51	V2	L14	231	Vector de Comercio: Codifica la séptima capa de intercambio.
+98	Eje_Sur_Bariloche	1952	263	19/09/52	V3	L15	244	Vector de Maquinaria: Codifica la séptima capa de construcción.
+99	Eje_Sur_Bariloche	1953	276	03/10/53	V4	L16	257	Vector de Genética: Codifica la séptima capa de código.
+100	Eje_Sur_Bariloche	1954	289	16/10/54	V5	L17	270	Vector de Censo: Codifica la séptima capa de conteo.
+101	Eje_Sur_Bariloche	1955	302	29/10/55	V6	L18	283	Vector de Auditoría: Codifica la séptima capa de verificación.
+102	Eje_Sur_Bariloche	1956	315	10/11/56	V7	L19	296	Vector de Meteorología: Codifica la séptima capa de patrón.
+103	Eje_Sur_Bariloche	1957	328	24/11/57	V8	L20	309	Vector de Administración: Codifica la séptima capa de estructura.
+104	Eje_Sur_Bariloche	1958	341	07/12/58	V9	L21	322	Vector de Psicología: Codifica la séptima capa de mente.
+105	Centro_Arbol	1959	7	07/01/59	V10	L22	335	Vector de Logística: Codifica la séptima capa de flujo.
+106	Centro_Arbol	1960	14	14/01/60	V11	L23	348	Vector de Medicina: Codifica la séptima capa de sanación.
+107	Centro_Arbol	1961	19	19/01/61	V12	L24	361	Vector de Astronomía: Codifica la séptima capa de tiempo.
+108	Centro_Arbol	1962	21	21/01/62	V13	L25	10	Vector de Termodinámica: Codifica la séptima capa de entropía.
+109	Centro_Arbol	1963	28	28/01/63	V14	L26	23	Vector de Historia: Codifica la séptima capa de memoria.
+110	Centro_Arbol	1964	35	04/02/64	V15	L27	36	Vector de Antropología: Codifica la séptima capa de diversidad.
+111	Centro_Arbol	1965	38	07/02/65	V16	L28	49	Vector de Telecomunicaciones: Codifica la séptima capa de red.
+112	Centro_Arbol	1966	42	11/02/66	V1	L29	62	Vector de Materia: Codifica la octava capa de manifestación.
+113	Centro_Arbol	1967	49	18/02/67	V2	L30	75	Vector de Comercio: Codifica la octava capa de intercambio.
+114	Centro_Arbol	1968	56	25/02/68	V3	L31	88	Vector de Maquinaria: Codifica la octava capa de construcción.
+115	Centro_Arbol	1969	57	26/02/69	V4	L32	101	Vector de Genética: Codifica la octava capa de código.
+116	Centro_Arbol	1970	63	04/03/70	V5	L33	114	Vector de Censo: Codifica la octava capa de conteo.
+117	Centro_Arbol	1971	70	11/03/71	V6	L34	127	Vector de Auditoría: Codifica la octava capa de verificación.
+118	Centro_Arbol	1972	76	16/03/72	V7	L35	140	Vector de Meteorología: Codifica la octava capa de patrón.
+119	Centro_Arbol	1973	77	17/03/73	V8	L36	153	Vector de Administración: Codifica la octava capa de estructura.
+120	Centro_Arbol	1974	84	25/03/74	V9	L37	166	Vector de Psicología: Codifica la octava capa de mente.
+121	Centro_Arbol	1975	91	01/04/75	V10	L38	179	Vector de Logística: Codifica la octava capa de flujo.
+122	Centro_Arbol	1976	95	05/04/76	V11	L39	192	Vector de Medicina: Codifica la octava capa de sanación.
+123	Centro_Arbol	1977	98	08/04/77	V12	L40	205	Vector de Astronomía: Codifica la octava capa de tiempo.
+124	Centro_Arbol	1978	105	15/04/78	V13	L41	218	Vector de Termodinámica: Codifica la octava capa de entropía.
+125	Centro_Arbol	1979	112	22/04/79	V14	L42	231	Vector de Historia: Codifica la octava capa de memoria.
+126	Centro_Arbol	1980	114	24/04/80	V15	L1	244	Vector de Antropología: Codifica la octava capa de diversidad.
+127	Centro_Arbol	1981	119	29/04/81	V16	L2	257	Vector de Telecomunicaciones: Codifica la octava capa de red.
+128	Centro_Arbol	1982	126	06/05/82	V1	L3	270	Vector de Materia: Codifica la novena capa de manifestación.
+129	Centro_Arbol	1983	133	13/05/83	V2	L4	283	Vector de Comercio: Codifica la novena capa de intercambio.
+130	Centro_Arbol	1984	140	19/05/84	V3	L5	296	Vector de Maquinaria: Codifica la novena capa de construcción.
+131	Centro_Arbol	1985	147	27/05/85	V4	L6	309	Vector de Genética: Codifica la novena capa de código.
+132	Centro_Arbol	1986	152	02/06/86	V5	L7	322	Vector de Censo: Codifica la novena capa de conteo.
+133	Centro_Arbol	1987	154	04/06/87	V6	L8	335	Vector de Auditoría: Codifica la novena capa de verificación.
+134	Centro_Arbol	1988	161	10/06/88	V7	L9	348	Vector de Meteorología: Codifica la novena capa de patrón.
+135	Centro_Arbol	1989	168	18/06/89	V8	L10	361	Vector de Administración: Codifica la novena capa de estructura.
+136	Centro_Arbol	1990	171	20/06/90	V9	L11	10	Vector de Psicología: Codifica la novena capa de mente.
+137	Centro_Arbol	1991	175	24/06/91	V10	L12	23	Vector de Logística: Codifica la novena capa de flujo.
+138	Ajustes_Residuo	1992	5	05/01/92	V11	L13	36	Vector de Medicina: Codifica la novena capa de sanación.
+139	Ajustes_Residuo	1993	10	10/01/93	V12	L14	49	Vector de Astronomía: Codifica la novena capa de tiempo.
+140	Ajustes_Residuo	1994	15	15/01/94	V13	L15	62	Vector de Termodinámica: Codifica la novena capa de entropía.
+141	Ajustes_Residuo	1995	20	20/01/95	V14	L16	75	Vector de Historia: Codifica la novena capa de memoria.
+142	Ajustes_Residuo	1996	25	25/01/96	V15	L17	88	Vector de Antropología: Codifica la novena capa de diversidad.
+143	Ajustes_Residuo	1997	30	30/01/97	V16	L18	101	Vector de Telecomunicaciones: Codifica la novena capa de red.
+144	Ajustes_Residuo	1998	35	04/02/98	V1	L19	114	Vector de Materia: Codifica la décima capa de manifestación.
+145	Ajustes_Residuo	1999	40	09/02/99	V2	L20	127	Vector de Comercio: Codifica la décima capa de intercambio.
+146	Ajustes_Residuo	2000	45	14/02/00	V3	L21	140	Vector de Maquinaria: Codifica la décima capa de construcción.
+147	Ajustes_Residuo	2001	50	19/02/01	V4	L22	153	Vector de Genética: Codifica la décima capa de código.
+148	Ajustes_Residuo	2002	55	24/02/02	V5	L23	166	Vector de Censo: Codifica la décima capa de conteo.
+149	Ajustes_Residuo	2003	60	01/03/03	V6	L24	179	Vector de Auditoría: Codifica la décima capa de verificación.
+150	Ajustes_Residuo	2004	65	05/03/04	V7	L25	192	Vector de Meteorología: Codifica la décima capa de patrón.
+151	Ajustes_Residuo	2005	70	11/03/05	V8	L26	205	Vector de Administración: Codifica la décima capa de estructura.
+152	Ajustes_Residuo	2006	75	16/03/06	V9	L27	218	Vector de Psicología: Codifica la décima capa de mente.
+153	Ajustes_Residuo	2007	80	21/03/07	V10	L28	231	Vector de Logística: Codifica la décima capa de flujo.
+154	Ajustes_Residuo	2008	85	25/03/08	V11	L29	244	Vector de Medicina: Codifica la décima capa de sanación.
+155	Ajustes_Residuo	2009	90	31/03/09	V12	L30	257	Vector de Astronomía: Codifica la décima capa de tiempo.
+156	Ajustes_Residuo	2010	95	05/04/10	V13	L31	270	Vector de Termodinámica: Codifica la décima capa de entropía.
+157	Ajustes_Residuo	2011	100	10/04/11	V14	L32	283	Vector de Historia: Codifica la décima capa de memoria.
+158	Ajustes_Residuo	2012	105	14/04/12	V15	L33	296	Vector de Antropología: Codifica la décima capa de diversidad.
+159	Ajustes_Residuo	2013	110	20/04/13	V16	L34	309	Vector de Telecomunicaciones: Codifica la décima capa de red.
+160	Ajustes_Residuo	2014	115	25/04/14	V1	L35	322	Vector de Materia: Codifica la undécima capa de manifestación.
+161	Ajustes_Residuo	2015	120	30/04/15	V2	L36	335	Vector de Comercio: Codifica la undécima capa de intercambio.
+162	Ajustes_Residuo	2016	125	04/05/16	V3	L37	348	Vector de Maquinaria: Codifica la undécima capa de construcción.
+163	Ajustes_Residuo	2017	130	10/05/17	V4	L38	361	Vector de Genética: Codifica la undécima capa de código.
+164	Ajustes_Residuo	2018	135	15/05/18	V5	L39	10	Vector de Censo: Codifica la undécima capa de conteo.
+165	Ajustes_Residuo	2019	140	20/05/19	V6	L40	23	Vector de Auditoría: Codifica la undécima capa de verificación.
+166	Ajustes_Residuo	2020	145	24/05/20	V7	L41	36	Vector de Meteorología: Codifica la undécima capa de patrón.
+167	Ajustes_Residuo	2021	150	30/05/21	V8	L42	49	Vector de Administración: Codifica la undécima capa de estructura.
+168	Ajustes_Residuo	2022	155	04/06/22	V9	L1	62	Vector de Psicología: Codifica la undécima capa de mente.
+169	Ajustes_Residuo	2023	160	09/06/23	V10	L2	75	Vector de Logística: Codifica la undécima capa de flujo.
+170	Ajustes_Residuo	2024	165	13/06/24	V11	L3	88	Vector de Medicina: Codifica la undécima capa de sanación.
+171	Ajustes_Residuo	2025	170	19/06/25	V12	L4	101	Vector de Astronomía: Codifica la undécima capa de tiempo.
