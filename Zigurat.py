@@ -59,6 +59,15 @@ VECTOR_INTERPRETACION = {
     (1, 4): "Vector de Misericordia: Materia como don",
     # ... (completar con los 672 combinaciones posibles, o mejor, usar una función que la genere dinámicamente)
 }
+def cmd_report(self, fecha_cierre=None):
+    print("\n[REPORTE VECTORIAL VRIL]")
+    for nodo in self.datos.nodos[:20]:  # Muestra los primeros 20 como ejemplo
+        id_nodo = int(nodo["ID"])
+        eje = (id_nodo % 16) + 1
+        ley = (id_nodo % 42) + 1
+        residuo = (ANCLAJE + (eje * ley * MODULO)) % CICLO
+        interpretacion = VECTOR_INTERPRETACION.get((eje, ley), "Vector no clasificado")
+        print(f"ID {id_nodo:3d}: Eje V{eje} × Ley L{ley:2d} → Residuo {residuo:3d} → {interpretacion}")
 # =============================================================================
 # NUEVA FUNCIÓN: GENERAR CSV DESDE INEGI
 # =============================================================================
